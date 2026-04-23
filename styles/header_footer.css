@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    background-color: #4EA487;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    width: 100%;
+    height: 128px;
+    z-index: 1000;
+}
+
+.navimage{
+    height: 32px;
+    width: 32px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+
+footer{
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 152px;
+}
+
+.footer-social-icon{
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+}
