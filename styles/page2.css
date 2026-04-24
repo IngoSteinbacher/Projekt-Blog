@@ -15,6 +15,7 @@
   width: 1100px;
   height: 538px;
   display: flex;
+  overflow: hidden;
 
 }
 #text-for-photos {
