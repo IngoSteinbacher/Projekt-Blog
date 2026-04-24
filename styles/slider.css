@@ -1,0 +1,64 @@
+.slider_a {
+  position: relative;
+  background-color: black;
+
+  width: 100vh;
+  height: 533px;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  border-top-right-radius: 100px;
+}
+
+.slider_a input {
+  z-index: 2;
+}
+
+.slider_a_wrapper {
+  z-index: 1;
+  width: 400%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  transition: all 1s ease-in-out;
+}
+
+.slider_a_element {
+  width: 25%;
+  height: 100%;
+}
+
+.element_img1 {
+  height: 100%;
+  width: 100%;
+}
+
+.element_img2 {
+  height: 100%;
+  width: 100%;
+}
+
+.element_img3 {
+  height: 100%;
+  width: 100%;
+}
+
+.element_img4 {
+  height: 100%;
+  width: 100%;
+}
+
+.slider_a input[value="img1"]:checked ~ .slider_a_wrapper {
+  transform: translateX(37.5%);
+}
+.slider_a input[value="img2"]:checked ~ .slider_a_wrapper {
+  transform: translateX(12.5%);
+}
+.slider_a input[value="img3"]:checked ~ .slider_a_wrapper {
+  transform: translateX(-12.5%);
+}
+.slider_a input[value="img4"]:checked ~ .slider_a_wrapper {
+  transform: translateX(-37.5%);
+}
