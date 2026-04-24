@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="de">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reise Blog</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reise Blog</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap"
+            rel="stylesheet">
+        <script src="script.js"></script>
 
-    <link rel="stylesheet" href="./styles/header_footer.css">
-    <link rel="stylesheet" href="./styles/basic.css">
-    <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/header_footer.css">
+        <link rel="stylesheet" href="./styles/basic.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="./styles/slider.css">
 
-    <script src="./js/hesder_footer.js"></script>
-    <script src="./js/basic.js"></script>
-</head>
+        <script src="./js/hesder_footer.js"></script>
+        <script src="./js/basic.js"></script>
+    </head>
 
-<body>
+    <body>
 
-    <header id="header-placeholder"></header>
-    
-    <section class="top">
-        <div></div>
-    </section>
-    <main>
-        <div id="higlight">
-            <h1>Willkommen on boad1 hallo</h1>
-        </div>
-       
-        <div id="faq">
-            <img src="./img/placeholder.png" alt="Placeholder">
-        </div>
+        <header id="header-placeholder"></header>
 
-        <div id="contact">
-            Contact
-        </div>
-    </main>
+        <section class="top">
+            <div></div>
+        </section>
+        <main>
+            <div id="higlight" class="text_zentriert">
+                <h1>Willkommen on boad1 hallo</h1>
+            </div>
+            <section class="slider_a">
+                <input type="radio" name="slider" value="img1" checked>
+                <input type="radio" name="slider" value="img2">
+                <input type="radio" name="slider" value="img3">
+                <input type="radio" name="slider" value="img4">
+                <div class="slider_a_wrapper">
+                    <div class="slider_a_element"><img src="./img/citty.jpg" alt="Citty" class="element_img1"></div>
+                    <div class="slider_a_element"><img src="./img/fjord.jpg" alt="Fjord" class="element_img2"></div>
+                    <div class="slider_a_element"><img src="./img/strad_su.jpg" alt="Strand" class="element_img3"></div>
+                    <div class="slider_a_element"><img src="./img/beach.jpg" alt="Beach" class="element_img4"></div>
+                </div>
+            </section>
+            
 
+            <div id="faq">
+                <img src="./img/placeholder.png" alt="Placeholder">
+            </div>
 
-    <footer id="footer-placeholder"></footer>
+            <div id="contact">
+                Contact
+            </div>
+        </main>
 
+        <footer id="footer-placeholder"></footer>
 
-
-    
-</body>
+    </body>
 
 </html>
