@@ -13,11 +13,29 @@ header{
     z-index: 1000;
 }
 
+.navlink:hover {
+    color: black;
+}
+
 .navimage{
-    height: 32px;
-    width: 32px;
-    margin-right: 40px;
-    margin-left: 10px;
+    height: 72px;
+    width: 72px;
+    margin-right: 30px;
+}
+
+.nav_style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 146px;
+}
+
+.navlink {
+    
+    color: white;
+    text-decoration: none;
+    margin-left: 72px;
+    font-size: 22px;
 }
 
 footer{
