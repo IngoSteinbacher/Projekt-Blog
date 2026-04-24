@@ -30,5 +30,8 @@ main {
 }
 
 .text_zentriert {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
