@@ -1,3 +1,8 @@
 .head_page_3 {
     display: flex;
 }
+
+.avatar_women {
+    width: 120px;
+    height: 120px;
+}
