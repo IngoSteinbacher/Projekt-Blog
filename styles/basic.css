@@ -14,10 +14,12 @@ body {
 }
 
 .top {
+  
   width: 1440px;
   background-color: #f1c953;
   height: 515px;
   margin-top: 128px;
+  
 }
 
 main {
