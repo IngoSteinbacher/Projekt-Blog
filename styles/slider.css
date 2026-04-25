@@ -1,8 +1,16 @@
+.main{
+  margin-top: 80px;
+}
+
+.mrg_top{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 .slider_a {
   position: relative;
   background-color: black;
 
-  width: 100vh;
+  width: 1200px;
   height: 533px;
 
   display: flex;
@@ -10,6 +18,8 @@
   align-items: flex-end;
   overflow: hidden;
   border-top-right-radius: 100px;
+  
+  margin-bottom: 80px;
 }
 
 .slider_a input {
@@ -83,4 +93,25 @@ input[type="radio"]:checked {
   cursor: pointer;
   background-color: #f1c953;
   border-color: #f1c953;
+}
+
+.img_hold{
+  width: 600px;
+  height: 800px;
+}
+
+@keyframes rotating {
+  0%  { transform: rotate(0);}
+  100%{ transform: rotate(1turn);}
+}
+.img_pos{
+  position: relative;
+  top: 248px;
+  left: 444px;
+  height: 160px;
+  width: 160px;
+  z-index: ;
+}
+.img_rotate:hover{
+  animation: rotating 4s linear infinite;
 }
