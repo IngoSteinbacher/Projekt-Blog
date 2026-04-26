@@ -41,7 +41,11 @@
   width: 25%;
   height: 100%;
 }
-
+.slider_a img{
+  height: 100%;
+  width: 100%;
+}
+/* 
 .element_img1 {
   height: 100%;
   width: 100%;
@@ -60,7 +64,7 @@
 .element_img4 {
   height: 100%;
   width: 100%;
-}
+} */
 
 .slider_a input[value="img1"]:checked ~ .slider_a_wrapper {
   transform: translateX(37.5%);
