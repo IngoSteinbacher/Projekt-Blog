@@ -40,3 +40,21 @@
     font-size: 24px;
     margin-top: 32px;
 }
+
+.rain_diagramm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.rain_titel {
+    font-family: "Arima";
+    font-size: 32px;
+    font-weight: 600;
+    color: #54370D;
+    text-align: center;
+}
+
+.rain_periods {
+    width: 640px;
+}
