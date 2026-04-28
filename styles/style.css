@@ -4,3 +4,49 @@
   font-weight: 700;
   color: #4ea487;
 }
+
+.first_headline {
+  font-family: "Palanquin";
+  font-size: 40px;
+  font-weight: 600;
+  color: #4ea487;
+}
+
+.underheadline {
+  font-family: "Arima";
+  font-size: 64px;
+  font-weight: 700 bold;
+  color: #f1c953;
+}
+
+.first_section_text {
+  font-family: "Arima";
+  font-size: 28px;
+  font-weight: 400;
+  color: #54370d;
+}
+
+.arima700{
+  font-family: 'Arima';
+  font-weight: 700;
+}
+
+.arima400{
+  font-family: 'Arima';
+  font-weight: 400;
+}
+
+.palanquin700{
+  font-family: 'Palanquin';
+  font-weight: 700;
+}
+
+.palanquin600{
+  font-family: 'Palanquin';
+  font-weight: 600;
+}
+
+.palanquin400{
+  font-family: 'Palanquin';
+  font-weight: 400;
+}

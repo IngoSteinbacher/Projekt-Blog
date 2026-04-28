@@ -1,0 +1,60 @@
+.head_page_3 {
+    display: flex;
+    margin-top: 32px;
+}
+
+.head_text_thailand {
+    width: 902px;
+    margin-right: 8px;
+}
+
+.avatar_women {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.extra_info {
+    width: 272px;
+    border-radius: 30px;
+    background-color: #4ea48733;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.author_name {
+    font-size: 18px;
+}
+
+.author_titel {
+    font-size: 18px;
+}
+
+.author_info {
+    font-size: 16px;
+}
+
+.pattaya_tour {
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.rain_diagramm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.rain_titel {
+    font-family: "Arima";
+    font-size: 32px;
+    font-weight: 600;
+    color: #54370D;
+    text-align: center;
+}
+
+.rain_periods {
+    width: 640px;
+}
