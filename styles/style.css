@@ -50,3 +50,30 @@
   font-family: 'Palanquin';
   font-weight: 400;
 }
+.palanquin500{
+  font-family: 'Palanquin';
+  font-weight: 500;
+}
+details{
+  color: #54370d;
+}
+
+summary {
+  list-style: none; 
+  display: flex;
+  justify-content: space-between; 
+  align-items: baseline;
+  cursor: pointer;
+  width: 100%;
+  height: 61px;
+  background-color: #f1c953;
+  padding: 16px 14px;
+  margin: 16px 0px;
+}
+summary::after {
+  content: '▶'; 
+  transition: transform 0.2s;
+}
+details[open] summary::after {
+  transform: rotate(90deg); 
+}
