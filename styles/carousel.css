@@ -1,4 +1,5 @@
 .content-ocean {
+margin-top: 128px;
   padding-top: 80px;
   display: flex;
   align-items: center;
@@ -116,7 +117,6 @@
   width: 272px;
   height: 389px;
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
   background-color: #4ea48733;
   border-radius: 30px;
@@ -129,7 +129,7 @@
   width: 120px;
   height: 120px;
   object-fit: cover;
-  border-radius: 55px;
+  border-radius: 51%;
   display: flex;
   gap: 12px;
 }
@@ -182,11 +182,11 @@
 .content-beaches-photos {
   z-index: 1;
   width: 1100px;
-  height: 538px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 80px;
+    padding-top: 80px;
+  
   gap: 64px;
 
 
@@ -266,9 +266,9 @@
 }
 .content-beaches-description {
   width: 1200px;
-  height: 145px;
-  padding-top: 120px;
   display: flex;
+  padding-top: 80px;
+  
 
 }
 #content-beaches-description-text {
@@ -286,9 +286,74 @@
   width: 1000px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+
 }
 
-.content-list p {
+.content-list span {
+  font-family: "Palanquin", sans-serif;
+  font-size: 24px;
+  color:#3D3D3D;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+ 
+}
+
+.content-list-item strong {
+  font-weight: 700;
+  font-weight: bold;
+
+}
+.pro-tipps{
+  width: 1130px;
+  padding-top: 80px;
+  
+}
+.pro-tipps-icon {
+  z-index: 2;
+  background-color:#4EA487;
+  width: 195.92px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+ border-radius: 10px;
+ transform: rotate(-13.67deg);
+}
+.pro-tipps-icon img {
+  width: 43,75px;
+  height: 42,19px;
+  color: #4ea487;
+  margin-top: 39,54px;
+
+}
+.pro-tipps-icon h3 {
+  font-family: "Palanquin", sans-serif;
+  font-size: 28px;
+  color: #F1C953;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  font-weight: bold;
+  line-height: 120%;
+  letter-spacing: 0%;
+
+}
+.pro-tipps-container{
+  z-index: 1;
+  width: 1083px;
+  background-color:#4EA48733;
+  border-radius: 30px;
+  padding-top: 26px;
+  padding-bottom: 24px;
+  padding-right: 16px;
+  padding-left: 16px;
+
+}
+.pro-tipps-container span {
   font-family: "Palanquin", sans-serif;
   font-size: 24px;
   color:#3D3D3D;
@@ -298,16 +363,14 @@
   line-height: 120%;
   letter-spacing: 0%;
 }
-
-.content-list-item {
-  display: flex;
-  align-items: center;
-   font-family: "Palanquin", sans-serif;
+.pro-tipps-container a {
+  font-family: "Palanquin", sans-serif;
   font-size: 24px;
-  color:#3D3D3D;
+  color:#4EA487;
   margin-block-start: 0px;
   margin-block-end: 0px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 120%;
   letter-spacing: 0%;
+  text-decoration: none;
 }

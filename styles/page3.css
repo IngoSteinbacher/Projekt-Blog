@@ -39,11 +39,14 @@
 .pattaya_tour {
     font-size: 24px;
     margin-top: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
 .rain_diagramm {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 24px;
 }
 
@@ -53,8 +56,12 @@
     font-weight: 600;
     color: #54370D;
     text-align: center;
+    margin-bottom: 24px;
 }
 
 .rain_periods {
     width: 640px;
+    border-radius: 53px;
+    box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 25%);
+    margin-bottom: 88px;
 }
