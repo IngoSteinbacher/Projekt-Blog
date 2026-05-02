@@ -17,7 +17,7 @@ body {
   padding: 0;
   margin: 0;
   align-items: center;
-  width: 100%;
+  width: 100dvw;
   
 }
 .slider{
@@ -26,15 +26,15 @@ body {
 
 .top_img{
   z-index: 1;
-  object-fit: cover;
+  object-fit: none;
   object-position: left;
   /* background-image: url(../img/header_photo1.png); */
   height: 515px;
-  
+  width: 1440px;
 
 }
 
-main {
+/* main {
   width: 1200px;
   height: 100vh;
   display: flex;
@@ -43,6 +43,31 @@ main {
   padding-top: 158px;
 
 
+} */
+.main {
+  width: 100%;
+  
+  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 120px;
+
+
+}
+
+.top {
+  display: flex;
+  width: 100%;
+
+  height: 515px;
+  margin-top: 128px;
+  padding: 0px 12px;
+  
+}
+.top img{
+  width: 1440px;
+  aspect-ratio: 16/9;
 }
 header{
     display: flex;
@@ -59,13 +84,13 @@ header{
     z-index: 1000;
 }
 footer{
-    /* display: flex; */
+    display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: #4EA487;
     color: white;
     font-size: 16px;
-    width: 100%;
+    width: 100dvw;
     height: 152px;
     bottom: 0;
     left: 0;
@@ -79,7 +104,9 @@ footer{
     max-width: 1440px;
     padding-left: 120px;
 }
-
+ul{
+  padding: 0;
+}
 
 .text_center {
   margin-left: 40px;
@@ -97,7 +124,9 @@ footer{
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (min-width: 1440px) {
+
   .main_content{
     padding: 0px max(12px, calc(50% - 720px));
   }
@@ -107,37 +136,42 @@ footer{
   #footer-placeholder{
     padding: 0px max(12px, calc(50% - 720px));
   }
+ 
 }
-@media screen and (min-width: 1200px) {
-  .main_content{
-    padding: 0px max(12px, calc(50% - 600px));
-  }
+@media screen and (min-width: 1280px){
 
 }
 @media screen and (min-width: 768px) and (max-width: 1280px){
-  .slider_a {
-  max-height: 420px;
-  }
-  .slider_zenter{
-  max-height: 510px;
+  .main{
+    padding: 0px 60px;
   }
 
 }
 @media screen and (min-width: 484px) and (max-width: 767px){
-  .slider_a {
-  max-height: 300px;
-
+  .main_content{
+    padding: 0px 10px;
+    width: 100dvw;
   }
-    .slider_zenter{
-  max-height: 400px;
+  .main{
+    padding: 0px 20px;
   }
+  nav{
+    display: none;
+  }
+ 
 }
 @media screen and (min-width: 4px) and (max-width: 479px){
-  .slider_a {
-  max-height: 200px;
-
+  .main_content{
+    padding: 0px ;
+    width: 100dvw;
   }
-    .slider_zenter{
-  max-height: 300px;
+  .main{
+    padding: 0px 20px;
+  }
+   #faq{
+    width: 100vw;
+  }
+  nav{
+    display: none;
   }
 }

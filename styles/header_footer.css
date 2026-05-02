@@ -24,26 +24,27 @@
 .footer-center{
     bottom: 30px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-left: 30px;
     margin-right: 30px;
-    height: 80px;
+    height: 160px;
     width: 100%;
-
+}
 .footer-left{
     display: flex;
     align-items: center;
-    margin-right: 60px;
-
+    /* margin-right: 60px; */
+    /* padding: 20px; */
+    margin-top: 20px;
     }
 
 .footer-right{
     display: flex;
+    justify-content: center;
     align-items: center;
-    
+
     }
-}
 
 .navlink-foot {
     

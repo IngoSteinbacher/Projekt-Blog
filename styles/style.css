@@ -57,23 +57,47 @@
 details{
   color: #54370d;
 }
-
 summary {
   list-style: none; 
   display: flex;
   justify-content: space-between; 
-  align-items: baseline;
+  align-items: center;
+  text-align: center;
   cursor: pointer;
   width: 100%;
-  height: 61px;
+  height: 56px;
+  border-radius: 12px;
   background-color: #f1c953;
   padding: 16px 14px;
-  margin: 16px 0px;
+  margin: 16px 12px;
 }
 summary::after {
-  content: '▶'; 
+  margin-right: 30px;
+  content: '>'; 
   transition: transform 0.2s;
 }
 details[open] summary::after {
   transform: rotate(90deg); 
+}
+
+@media screen and (min-width: 1280px) and (max-width: 30000px){
+
+}
+@media screen and (min-width: 768px) and (max-width: 1280px){
+.faq_font{
+  font-size: 16px;
+
+}
+}
+@media screen and (min-width: 484px) and (max-width: 767px){
+.faq_font{
+  font-size: 16px;
+
+}
+}
+@media screen and (min-width: 4px) and (max-width: 483px){
+.faq_font{
+  font-size: 16px;
+
+}
 }
