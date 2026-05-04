@@ -1,6 +1,6 @@
 .head_page_3 {
     display: flex;
-    margin-top: 32px;
+    margin-top: 208px;
 }
 
 .head_text_thailand {
@@ -34,6 +34,9 @@
 
 .author_info {
     font-size: 16px;
+    color: #54370D;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
 .pattaya_tour {
@@ -64,4 +67,29 @@
     border-radius: 53px;
     box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 25%);
     margin-bottom: 88px;
+}
+
+.price_beach {
+    display: flex;
+    justify-content: center;
+}
+
+.pattaya_pic {
+    width: 519px;
+    border-radius: 53px;
+    box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 25%);
+}
+
+.price_titel {
+    font-family: "Arima";
+    font-size: 32px;
+    font-weight: 600;
+    color: #54370D;
+    margin-bottom: 34px;
+}
+
+.pr_beach {
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
