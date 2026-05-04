@@ -18,8 +18,25 @@
     margin-left: 72px;
     font-size: 22px;
 }
+.nav_style{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-top: 28px;
+    max-width: 1440px;
+    
+}
+.nav_big{
 
-
+}
+.nav_smal{
+    background-color: #F1C953;
+    height: 88px;
+    
+}
+.show-mobile{
+    display: none;
+}
 
 .footer-center{
     bottom: 30px;
