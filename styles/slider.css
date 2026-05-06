@@ -10,7 +10,7 @@
   position: relative;
   background-color: black;
 
-  width: 100%;
+  width: 99%;
   height: 533px;
   
   display: flex;
@@ -65,11 +65,7 @@
   background-position: center top;
   background-repeat: no-repeat;
 }
-.slider_a img{
-  height: 533px;
-  width: 1240px;
-  display: block;
-}
+
 
 .slider_a input[value="img1"]:checked ~ .slider_a_wrapper {
   transform: translateX(37.5%);
@@ -101,11 +97,6 @@ input[type="radio"]:checked {
   cursor: pointer;
   background-color: #f1c953;
   border-color: #f1c953;
-}
-
-.img_hold{
-  width: 600px;
-  height: 600px;
 }
 
 @keyframes rotating {

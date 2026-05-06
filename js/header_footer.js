@@ -12,4 +12,12 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(data => {
             document.getElementById("footer-placeholder").innerHTML = data;
         });
+
+
+    fetch("footer_header.html")
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("footer_header-placeholder").innerHTML = data;
+        });
+
 });
