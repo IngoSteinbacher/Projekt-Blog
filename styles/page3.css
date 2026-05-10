@@ -106,6 +106,10 @@
     margin-right: 80px;
 }
 
+.digar_price {
+    text-align: center;
+}
+
 .pattaya_text {
     margin-top: 80px;
     font-size: 24px;
@@ -113,4 +117,56 @@
     letter-spacing: 0%;
     width: 1200px;
     color: #3d3d3d;
+}
+
+.share_pic {
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+}
+
+.share_butt {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button_share {
+    margin-top: 48px;
+    border-radius: 40px;
+    border-color: #4EA487;
+    width: 158px;
+    height: 48px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: #F1C953;
+    background-color: #4EA487;
+    font-family: "Arima";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 5%;
+}
+
+.share_text {
+    font-family: "Arima";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #54370D;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    top: 45px;
+    left: -235px;
 }
