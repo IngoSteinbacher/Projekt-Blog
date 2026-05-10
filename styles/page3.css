@@ -44,6 +44,8 @@
     margin-top: 32px;
     line-height: 120%;
     letter-spacing: 0%;
+    width: 1200px;
+    color: #3d3d3d;
 }
 
 .rain_diagramm {
@@ -72,6 +74,8 @@
 .price_beach {
     display: flex;
     justify-content: center;
+    margin-top: 88px;
+    padding: 0 16px;
 }
 
 .pattaya_pic {
@@ -86,10 +90,27 @@
     font-weight: 600;
     color: #54370D;
     margin-bottom: 34px;
+    text-align: center;
 }
 
 .pr_beach {
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 0%;
+    margin-bottom: 16px;
+    color: #3d3d3d;
+}
+
+.diagr_beach {
+    align-items: center;
+    margin-right: 80px;
+}
+
+.pattaya_text {
+    margin-top: 80px;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    width: 1200px;
+    color: #3d3d3d;
 }
