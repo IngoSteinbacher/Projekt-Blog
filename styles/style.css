@@ -54,8 +54,19 @@
   font-family: 'Palanquin';
   font-weight: 500;
 }
+
+.index_info{
+  font-size: 24px;
+  line-height: 1;
+  padding: 24px 0;
+}
 details{
   color: #54370d;
+}
+.contact_a{
+  color: #4ea487;
+  text-decoration: none;
+  margin: 0 4px;
 }
 summary {
   list-style: none; 
@@ -64,12 +75,16 @@ summary {
   align-items: center;
   text-align: center;
   cursor: pointer;
-  width: 90%;
+  width: 100%;
   min-height: 56px;
   border-radius: 12px;
   background-color: #f1c953;
   padding: 16px 14px;
   margin: 16px 12px;
+}
+details p{
+  width: 100%;
+  padding-left: 32px;
 }
 summary::after {
   margin-right: 30px;

@@ -10,7 +10,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Palanquin:wght@100;200;300;400;500;600;700&display=swap"
     rel="stylesheet" />
-  <script src="script.js"></script>
+
 
   <link rel="stylesheet" href="./styles/header_footer.css" />
   <link rel="stylesheet" href="./styles/basic.css" />
@@ -40,15 +40,26 @@
           <p class="palanquin500">From sunrise balloons to hidden cave dwellings, every moment feels unreal in the best
             way.</p>
         </div>
+        <div><svg viewBox="0 0 647.00 541.00">
+            <path fill="#f1c953" stroke="none" fill-opacity="1" stroke-width="1.0008" stroke-opacity="1"
+              id="tSvg94d51552f4" sodipodi:nodetypes="cssccccccc" title="Path 3"
+              d="M521.5086 395.6179C500.4691 454.3997 435.4686 497.8947 392.6724 527.5494C350.638 556.6761 251.5086 536.8426 195.0086 527.3275C138.5086 517.8123 -1.9914 517.8123 -1.9914 517.8123C-1.9914 345.872 -1.9914 173.9317 -1.9914 1.9914C199.2516 1.9914 400.4946 1.9914 601.7376 1.9914C616.1613 1.9914 630.5849 1.9914 645.0086 1.9914C642.2346 4.8797 603.8356 21.052 589.5086 32.0392C545.5326 65.7631 496.8706 109.325 504.4375 171.9246C516.8345 274.4868 529.9198 314.3375 521.5086 395.6179Z" />
+          </svg></div>
       </div>
     </section>
 
 
     <section class="main">
       <section class="slider zentriert slider_zenter">
-        <div id="higlight" class="text_zentriert">
-          <img src="./img/rocket_launch.png" alt="Lancher" class="img_highlight" />
-          <h1 class="font_h1">Highlights</h1>
+        <div>
+          <div id="higlight" class="text_zentriert">
+            <img src="./img/rocket_launch.png" alt="Lancher" class="index_img" />
+            <h1 class="font_h1">Highlights</h1>
+          </div>
+          <p class="palanquin500 index_info">From the vibrant cultures of Asia to the sun-drenched islands of the
+            Caribbean and the serene
+            <br>landscapes of Scandinavia, each destination offers a distinct way to explore the world.
+          </p>
         </div>
         <section class="slider_a">
           <input type="radio" name="slider" value="img1" checked />
@@ -98,9 +109,9 @@
         </section>
       </section>
 
-      <section id="faq" class="zentriert mrg_top faq_main">
+      <section id="faq" class="zentriert faq_main">
         <div class="text_zentriert">
-          <img src="./img/rocket_launch.png" alt="Lancher" class="img_highlight" />
+          <img src="./img/live_help.png" alt="Lancher" class="index_img" />
           <h1 class="font_h1">FAQ</h1>
         </div>
         <ul>
@@ -142,33 +153,45 @@
         </ul>
       </section>
 
-      <section id="contact" class="zentriert mrg_top contact_main">
-        <div class="text_zentriert">
-          <img src="./img/rocket_launch.png" alt="Lancher" class="img_highlight" />
-          <h1 class="font_h1">Contact</h1>
+      <section id="contact" class="zentriert">
+
+        <div class="text_zentriert zentriert_text  mrg_top">
+          <div class="center_dsp">
+            <img src="./img/person_pin.png" alt="Lancher" class="index_img" />
+            <h1 class="font_h1">Contact Form</h1>
+          </div>
+          <p class="palanquin500 index_info">Have a question or an idea to collaborate? <br>
+            Get in touch—I’d love to hear from you and explore how we can work together.</p>
         </div>
-        <div>
+
+        <div class="form_u">
           <form>
-            <div class="form-group">
-              <label>Vorname :*</label>
-              <input type="text" class="form-control" name="v_name" placeholder="" required="required" />
-            </div>
+            <div>
+              <div class="form-h">
+                <div class="form-group palanquin500 left-form">
+                  <label for="name">What's your name?</label>
+                  <input type="text" class="form-control" name="name" placeholder="" />
+                </div>
 
-            <div class="form-group">
-              <label>Nachname :*</label>
-              <input type="text" class="form-control" name="text_name" placeholder="" required="required" />
-            </div>
+                <div class="form-group palanquin500 right-form">
+                  <label for="email">What's your email?</label>
+                  <input type="email" class="form-control" name="email" placeholder="" />
+                </div>
+              </div>
 
-            <div class="form-group">
-              <label>Nachricht :</label>
-              <textarea class="form-control" name="textarea_name" placeholder="Placeholder Textarea">
-              </textarea>
+              <div class="form-group-1 palanquin500">
+                <label>How can I help?</label>
+                <input type="text" class="form-control1" name="textarea_name" placeholder="">
+                </textarea>
+              </div>
             </div>
-
-            <div class="form-group">
-              <input type="submit" class="btn btn-primary" name="button_name" value="Senden" />
+            <div class="form-g">
+              <div class="palanquin500 chk_font"><input type="checkbox"> I've read the <a class="contact_a"
+                  href="#">privacy policy</a> and agree to the processing of my data as outlined.</div>
+              <div class="form-group1 arima700">
+                <input type="submit" class="btn btn-primary" name="button_name" value="Send" />
+              </div>
             </div>
-
           </form>
         </div>
       </section>
