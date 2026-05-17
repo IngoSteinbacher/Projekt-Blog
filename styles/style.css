@@ -15,7 +15,7 @@
 .underheadline {
   font-family: "Arima";
   font-size: 64px;
-  font-weight: 700 bold;
+  font-weight: 700 ;
   color: #f1c953;
 }
 
@@ -35,7 +35,10 @@
   font-family: 'Arima';
   font-weight: 400;
 }
-
+.arima500{
+  font-family: 'Arima';
+  font-weight: 500;
+}
 .palanquin700{
   font-family: 'Palanquin';
   font-weight: 700;

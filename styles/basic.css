@@ -57,6 +57,19 @@ body {
   background-position: center top;
   
 }
+.author{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.avatar_men{
+  height: 120px;
+  width: 120px;
+  margin: 12px 0;
+}
 .headline{
   margin-top: 208px;
   display: flex;
@@ -90,7 +103,6 @@ body {
 .video_info{
   max-width: 15%;
   max-height: 100%;
-  position: relative;
   top: 0;
   right: 0;
   display: flex;
@@ -99,20 +111,22 @@ body {
   border-radius: 30px;
   align-items: center;
   background-size: cover;
-  padding: 16px;
+  padding: 12px;
   margin-bottom: 48px;
+  
 }
 .video_content{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 137px 0px;
+  flex-direction: column;
+  margin-top: 48px;
   padding: 0px 16px;
 }
 .video_img{
-  width: 931px;
+  width: 100%;
   height: 520px;
-  
+  margin: 137px 0;
   display: flex;
   background-image: url(../img/Video.png);
   background-repeat: no-repeat;
@@ -139,11 +153,13 @@ body {
 
 .tip_content{
   max-width: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   padding: 0 34px;
+  
 }
 .tipps-icon{
   z-index: 2;
@@ -172,11 +188,11 @@ body {
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 290px;
+  
 }
 .tipps-container{
   display: flex;
-  max-width: 1440px;
+  max-width: 90%;
   z-index: 1;
   background-color:#4EA48733;
   border-radius: 30px;
@@ -185,52 +201,14 @@ body {
   padding-right: 16px;
   padding-left: 16px;
   position: relative;
-  top: 25px;
+  top: 15px;
+  left: 60px;
   line-height: 1;
   font-size: 24px;
 }
 .tipps-container ol{
   margin: 0px 16px;
 }
-.follow_me{
-  display: flex;
-  justify-content: center;
-  margin: 80px 0px;
-}
-.follow_contant{
-  display: flex;
-  width: 493px;
-  height: 154px;
-  position: relative;
-  justify-content: center;
-  flex-direction: column;
-}
-.follow_img{
-  width: 107px;
-  height: 65px;
-  z-index: 1;
-  position: static;
-  left: 0;
-  bottom: 0;
-  rotate: -135deg;
-}
-.follow_btn{
-  width: 158px;
-  height: 48px;
-  border-radius: 40px;
-  background-color: #4EA487;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #F1C953;
-  font-size: 24px;
-}
-.follow_btn img{
-  height: 32px;
-  height: 32px;
-}
-
 .info{
   position: relative;
   top: 0;
@@ -387,6 +365,7 @@ input[type=checkbox]{
 }
 .form_u{
   padding: 0px 16px;
+  margin-bottom: 120px;
 }
 .form-h{
   display: flex;
@@ -435,6 +414,60 @@ input[type=checkbox]{
   border-radius: 40px;
   font-size: 24px;
 }
+.follow_me{
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 88px;
+}
+.follow_contant{
+  display: flex;
+  width: 493px;
+  height: 154px;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}^
+.follow_inf{
+  width: 463px;
+  height: 58px;
+  align-items: center;
+  padding: 0 12px;
+  
+}
+.follow_inf h4{
+  font-size: 24px;
+}
+.follow_img{
+  width: 107px;
+  height: 65px;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  rotate: -135deg;
+}
+.btn-cont{
+  position: absolute;
+  left: 120px;
+  bottom: -12px;
+}
+.follow_btn{
+  width: 158px;
+  height: 48px;
+  border-radius: 40px;
+  background-color: #4EA487;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #F1C953;
+  font-size: 24px;
+}
+.follow_btn img{
+  height: 32px;
+  height: 32px;
+}
 
 
 @media screen and (min-width: 1440px) {
@@ -442,9 +475,6 @@ input[type=checkbox]{
   .main_content{
     padding: 0px max(12px, calc(50% - 720px));
   }
-  /* .tip_content{
-    padding: 0px max(12px, calc(50% - 720px));
-  } */
   #header-placeholder{
     padding: 0px max(12px, calc(50% - 720px));
   }
@@ -545,10 +575,57 @@ input[type=checkbox]{
   .right-form{
     width: 100%;
   }
+  .follow_img{
+    width: 50px;
+    height: 30.5px;
+    rotate: -100.35deg;
+  }
+  .tipps-container{
+    font-size: 16px;
+  }
+  .description_content{
+    font-size: 16px;
+  }
+  .video_img{
+    height: 192px;
+    background-size: contain;
+  }
+  .video_content p{
+    font-size: 16px;
+  }
+  .headline{
+    flex-direction: column;
+  }
+  .video_info{
+    margin-top: 24px;
+    max-width: 100%;
+  }
+  .head_text_scandy{
+    width: 100%;
+  }
+  .head_text_scandy h1{
+    font-size: 20px;
+  }
+  .head_text_scandy h2{
+    font-size: 40px;
+  }
+  .head_text_scandy p{
+    font-size: 18px;
+  }
+  .follow_inf h4{
+    font-size: 18px;
+  }
+  .btn-cont{
+    left: 180px;
+  }
+  .follow_img{
+    left: 60px;
+    bottom: 40px;
+  }
 }
 @media screen and (min-width: 4px) and (max-width: 479px){
   .main_content{
-    padding: 0px ;
+    padding: 15px 0;
     width: 99dvw;
   }
   .main{
