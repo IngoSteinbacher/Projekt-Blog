@@ -67,7 +67,10 @@ body {
   letter-spacing: 0%;
   padding-bottom: 32px;
 }
-
+.content-ocean-description{
+  max-width: 100%;
+  object-fit: cover;
+}
 .read-counter {
   display: flex;
   justify-content: flex-start;
@@ -443,7 +446,7 @@ body {
 .content-beaches-description-text {
   font-size: 20px;
 }
-.share_text {
+.share-text {
   font-size: 20px;
 }
 .responsive-text-mobeile {
@@ -452,17 +455,24 @@ body {
 .responsive-text-mobeile span{
   font-size: 20px;
 
+
 }
 
 
-@media screen and ( min-width:550px) and (max-width:900px) {
+@media screen and ( min-width:500px) and (max-width:900px) {
+   .photo-container {
+    display: none;
+  }
   .main_content {
     
     padding-left: 30px;
     padding-right: 30px;
+     max-width: 100%;
   }
-   .photo-container {
-    display: none;
+
+  }
+  .slider-responsive-mobeile{
+  
    }
     .content-ocean{
     flex-direction: column;
@@ -485,7 +495,7 @@ body {
   font-size: 18px;
 }
 
-.share_text {
+.share-text {
   font-size: 20px;
 }
 .responsive-text-mobeile {
@@ -494,22 +504,32 @@ body {
 .responsive-text-mobeile span{
   font-size: 18px;}
 }
-}
 
-@media screen and ( min-width: 375px) and (max-width: 550px) {
+
+@media screen and ( min-width: 374px) and (max-width: 500px) {
   .photo-container {
     display: none;
   }
+
+
   .main_content {
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 100%;
+    padding-top: 40px;
+    
   }
     .content-ocean{
+          margin-top: 80px;
     flex-direction: column;
     gap: 32px;
+     max-width: 100%;
+      padding-top: 40px;
+
   }
   .content-ocean-container-textcontent h3 {
   font-size: 20px;
+  text-align: center;
 }
 .content-ocean-container-textcontent h1 {
   font-size: 40px;
@@ -517,7 +537,78 @@ body {
   #content-ocean-description {
     font: 18px;
   }
+#content-ocean-description {
+  font-size: 18px;
+ max-width: 100%;
 }
+.read-counter {
+  gap: 6px;
+  font-size: 16px;
+  max-width: 100%;
+}
+.photo-ocean {
+width: 100%;
+
+}
+
+#photo-ocean-profile-description {
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-beaches-photos {
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.content-beaches-description {
+  padding-top: 0px;
+}
+.content-beaches-description-text {
+  font-size: 16px;
+  padding-top: 40px;
+}
+.content-list {
+  padding-top: 40px;
+  font-size: 16px;
+  
+}.content-list span {
+  font-size: 16px;
+}
+.pro-tipps {
+  padding-top: 40px;
+}
+.pro-tipps-icon {
+  width: 195px;
+  height: 66px;
+}
+.pro-tipps-icon h3 {
+  font-size: 28px;
+}
+.pro-tipps-container span{
+  padding-top: 16px;
+  font-size: 16px;
+}
+.share-text {
+  font-size: 18px;
+}
+.container-arrow-button {
+  display: flex;
+  align-items: center;
+ 
+}
+.share_button {
+ padding-top: 40px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.arrow1 {
+display: flex;
+justify-content: center;
+}
+
+
+
 .slider-responsive-mobeile{
   background-color:white;
   width: 343px;
@@ -537,7 +628,18 @@ width: 40px;
 height: 22px;
 border-radius: 50px;
 }
-
+.slider-responsive-mobeile input[type="radio"]:checked {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 40px;
+  height: 28px;
+  border: 2px solid #555;
+  border-radius: 20px;
+  outline: none;
+  cursor: pointer;
+  background-color: #4EA487;
+  border-color: #4EA487;
+}
 .slider-photos-responsive-mobeile{
   width: 500%;
   height: 100%;
@@ -545,6 +647,7 @@ border-radius: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: perspective(250px) rotatey(20deg) translateX(-20px);
 
 }
 
@@ -603,7 +706,4 @@ border-radius: 50px;
   transform: translateX(calc(-200% /5));
 }
 
-
-
-
-
+}
