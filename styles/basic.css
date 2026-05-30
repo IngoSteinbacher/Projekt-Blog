@@ -21,6 +21,11 @@ body {
   width: 99%;
   
 }
+.impress{
+  margin-top: 192px;
+  
+  margin-bottom: 64px;
+}
 .slider{
   margin-top: 50px;
   margin-bottom: 64px;
@@ -147,9 +152,7 @@ body {
 .desc_cont{
   margin-top: 16px;
 }
-/* .desc_cont ul{
-  padding: 0px 48px;
-} */
+
 
 .tip_content{
   max-width: 100%;
@@ -473,6 +476,9 @@ input[type=checkbox]{
 @media screen and (min-width: 1440px) {
 
   .main_content{
+    padding: 0px max(12px, calc(50% - 720px));
+  }
+  .impress{
     padding: 0px max(12px, calc(50% - 720px));
   }
   #header-placeholder{
