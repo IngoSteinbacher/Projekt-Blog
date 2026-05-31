@@ -39,6 +39,15 @@
     letter-spacing: 0%;
 }
 
+.icons_img {
+    width: 16px;
+    height: 16px;
+}
+
+.icon_text {
+    font-size: 16px;
+}
+
 .pattaya_tour {
     font-size: 24px;
     margin-top: 32px;
