@@ -1,5 +1,6 @@
 .head_page_3 {
     display: flex;
+    flex-direction: column;
     margin-top: 208px;
 }
 
@@ -12,6 +13,10 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
+}
+
+.ex_info {
+    width: 272px;
 }
 
 .extra_info {
@@ -37,6 +42,11 @@
     color: #54370D;
     line-height: 120%;
     letter-spacing: 0%;
+}
+
+.icons {
+    display: flex;
+    margin-top: 32px;
 }
 
 .icons_img {
