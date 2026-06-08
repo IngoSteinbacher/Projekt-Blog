@@ -78,16 +78,16 @@ summary {
   align-items: center;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 95%;
   min-height: 56px;
   border-radius: 12px;
   background-color: #f1c953;
   padding: 16px 14px;
-  margin: 16px 12px;
+  margin: 16px 16px;
 }
 details p{
   width: 100%;
-  padding-left: 32px;
+  padding: 0px 32px;
 }
 summary::after {
   margin-right: 30px;

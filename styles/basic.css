@@ -14,12 +14,17 @@ body {
   margin: 0;
   padding: 0;
 }
-.main_content{
+.main-page{
   padding: 0;
   margin: 0;
   align-items: center;
   width: 99%;
   
+}
+.impress{
+  margin-top: 192px;
+  
+  margin-bottom: 64px;
 }
 .slider{
   margin-top: 50px;
@@ -147,9 +152,7 @@ body {
 .desc_cont{
   margin-top: 16px;
 }
-/* .desc_cont ul{
-  padding: 0px 48px;
-} */
+
 
 .tip_content{
   max-width: 100%;
@@ -427,7 +430,7 @@ input[type=checkbox]{
   position: relative;
   text-align: center;
   justify-content: center;
-}^
+}
 .follow_inf{
   width: 463px;
   height: 58px;
@@ -472,7 +475,10 @@ input[type=checkbox]{
 
 @media screen and (min-width: 1440px) {
 
-  .main_content{
+  .main-page{
+    padding: 0px max(12px, calc(50% - 720px));
+  }
+  .impress{
     padding: 0px max(12px, calc(50% - 720px));
   }
   #header-placeholder{
@@ -496,7 +502,7 @@ input[type=checkbox]{
 
 }
 @media screen and (min-width: 841px) and (max-width: 1280px){
-  .main_content{
+  .main-page{
     padding: 0px 15px;
     width: 99dvw;
   }
@@ -515,7 +521,7 @@ input[type=checkbox]{
   }
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
-  .main_content{
+  .main-page{
     padding: 0 15px;
     width: 99dvw;
   }
@@ -624,15 +630,15 @@ input[type=checkbox]{
   }
 }
 @media screen and (min-width: 4px) and (max-width: 479px){
-  .main_content{
-    padding: 15px 0;
+  .main-page{
+    padding: 0px 15px;
     width: 99dvw;
   }
   .main{
     padding: 0px;
   }
    #faq{
-    width: 99vw;
+    width: 95%;
   }
   .footer-right{
     flex-direction: column;
