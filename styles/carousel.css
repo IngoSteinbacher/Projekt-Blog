@@ -440,6 +440,10 @@ display: none;
     padding-left: 60px;
     padding-right: 60px;
   }
+   .photo-container {
+   width: 100%;
+   height: 333px;
+  }
   .content-ocean{
     flex-direction: column;
     gap: 32px;
@@ -455,7 +459,7 @@ display: none;
     font: 28px;
 }
 .slider-photos {
-    width: 230px;
+    width: 150px;
     height: 300px;
   }
 .content-beaches-description-text {
@@ -552,6 +556,8 @@ border-radius: 50px;
 .slider-photos-element{
   width: calc(100%/5);
   height: 100%;
+  background-size: cover;
+  border-radius: 16px;
 }
 .element-one {
   background-image: url("../img/photo-1.jpg");
