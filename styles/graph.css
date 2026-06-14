@@ -1,7 +1,11 @@
 .head_page_3 {
     display: flex;
-    flex-direction: column;
     margin-top: 208px;
+    padding: 0 16px;
+}
+
+.graph3 {
+    padding: 0 16px;
 }
 
 .head_text_thailand {
@@ -13,10 +17,6 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-}
-
-.ex_info {
-    width: 272px;
 }
 
 .extra_info {
@@ -49,13 +49,26 @@
     margin-top: 32px;
 }
 
+.icons_space2 {
+    margin-right: 8px;
+}
+
+.icons_space {
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
 .icons_img {
     width: 16px;
     height: 16px;
 }
 
 .icon_text {
+    font-family: "Palanquin";
     font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
 .pattaya_tour {
@@ -180,12 +193,12 @@
     text-align: center;
 }
 
-.container {
-    position: relative;
-}
-
 .arrow {
-    position: absolute;
-    top: 45px;
-    left: -235px;
+  width: 107px;
+  height: 65px;
+  z-index: 1;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  rotate: -135deg;
 }
