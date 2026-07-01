@@ -17,8 +17,6 @@ body {
 .main-page {
   padding: 0;
   margin: 0;
-  padding-left: 120px;
-  padding-right: 120px;
   align-items: center;
   width: 99%;
 }
@@ -95,14 +93,26 @@ body {
 }
 .read-counter_video {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 32px;
+  flex-direction: row;
+
+  gap: 16px;
   margin-top: 32px;
+  margin-bottom: 32px;
+}
+.date_time {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.read_share {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  
 }
 .video_info {
-  max-width: 15%;
-  max-height: 100%;
+  max-width: 272px;
+  max-height: 389px;
   top: 0;
   right: 0;
   display: flex;
@@ -461,7 +471,10 @@ input[type="checkbox"] {
 @media screen and (min-width: 1440px) {
   .main-page {
     padding: 0px max(12px, calc(50% - 720px));
+    padding-left: 120px;
+    padding-right: 120px;
   }
+
   .impress {
     padding: 0px max(12px, calc(50% - 720px));
   }
@@ -498,6 +511,21 @@ input[type="checkbox"] {
 @media screen and (min-width: 484px) and (max-width: 767px) {
   .info {
     margin: 54px 20px;
+  }
+}
+@media screen and (min-width: 841px) and (max-width: 940px) {
+  .read-counter_video {
+    flex-direction: column;
+  }
+  .date_time {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .read_share {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 24px;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
@@ -605,6 +633,19 @@ input[type="checkbox"] {
   .follow_img {
     left: 60px;
     bottom: 40px;
+  }
+  .read-counter_video {
+    flex-direction: column;
+  }
+  .date_time {
+    justify-content: flex-start;
+    gap: 24px;
+    width: 100%;
+  }
+  .read_share {
+    justify-content: flex-start;
+    gap: 24px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {
