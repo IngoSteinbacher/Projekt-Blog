@@ -1,5 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  width: 99%;
+  margin: 0;
+  padding: 0;
+}
+
 .head_page_3 {
     display: flex;
+    justify-content: center;
     margin-top: 208px;
     padding: 0 16px;
 }
@@ -9,7 +21,6 @@
 }
 
 .head_text_thailand {
-    width: 902px;
     margin-right: 8px;
 }
 
@@ -71,12 +82,16 @@
     letter-spacing: 0%;
 }
 
+.pat_tour_text {
+    display: flex;
+    justify-content: center;
+}
+
 .pattaya_tour {
     font-size: 24px;
     margin-top: 32px;
     line-height: 120%;
     letter-spacing: 0%;
-    width: 1200px;
     color: #3d3d3d;
 }
 
@@ -142,6 +157,11 @@
     text-align: center;
 }
 
+.pat_text {
+    display: flex;
+    justify-content: center;
+}
+
 .pattaya_text {
     margin-top: 80px;
     font-size: 24px;
@@ -157,12 +177,18 @@
     object-fit: contain;
 }
 
-.share_butt {
+.share_sec {
+    display: flex;
+    justify-content: center;
     margin-top: 48px;
     margin-bottom: 48px;
+}
+
+.share_butt {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .button_share {
@@ -201,4 +227,89 @@
   left: 0px;
   bottom: 0px;
   rotate: -135deg;
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1350px) {
+    
+}
+
+@media screen and (min-width: 315px) and (max-width: 1280px) {
+    
+    .price_beach {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .diagr_beach {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+        margin-right: 0;
+    }
+}
+
+@media screen and (min-width: 4px) and (max-width: 840px) {
+
+    .head_page_3 {
+        flex-direction: column;
+    }
+
+    .first_section_text {
+        font-size: 18px;
+    }
+
+    .extra_info {
+        margin-top: 16px;
+        width: auto;
+    }
+
+    .pattaya_tour {
+        font-size: 16px;
+    }
+
+    .rain_titel {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .rain_periods {
+        width: 345px;
+        margin-bottom: 16px;
+        border-radius: 30px;
+    }
+
+    .price_beach {
+        margin-top: 16px;
+    }
+
+    .price_titel {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+
+    .pr_beach {
+        font-size: 16px;
+    }
+
+    .pattaya_text {
+        font-size: 16px;
+        margin-top: 16px;
+    }
+
+    .pattaya_pic {
+        width: 343px;
+        border-radius: 30px;
+    }
+
+    .share_text {
+        font-size: 18px;
+    }
+
+    .arrow {
+        width: 50px;
+        height: 30.41px;
+        rotate: -100.35deg;
+        bottom: 32px;
+    }
 }
