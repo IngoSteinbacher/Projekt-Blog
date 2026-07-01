@@ -523,6 +523,7 @@ input[type="checkbox"] {
     gap: 24px;
   }
   .read_share {
+    width: 100%;
     justify-content: flex-start;
     gap: 24px;
   }
@@ -639,10 +640,12 @@ input[type="checkbox"] {
   .date_time {
     justify-content: flex-start;
     gap: 24px;
+    width: 100%;
   }
   .read_share {
     justify-content: flex-start;
     gap: 24px;
+    width: 100%;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {
