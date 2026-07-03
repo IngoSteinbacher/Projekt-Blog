@@ -67,25 +67,7 @@ body {
     }
 }
 
-@media screen and (min-width: 4px) and (max-width: 840px) {
-
-    .first_section_text {
-        font-size: 18px;
-    }
-
-    .extra_info {
-        margin-top: 16px;
-        width: auto;
-    }
-
-    .pattaya_tour {
-        font-size: 16px;
-    }
-
-    .rain_titel {
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
+@media screen and (min-width: 380px) and (max-width: 840px) {
 
     .rain_periods {
         width: 345px;
@@ -97,17 +79,26 @@ body {
         margin-top: 16px;
     }
 
-    .price_titel {
-        font-size: 20px;
-        margin-bottom: 16px;
-    }
-
-    .pr_beach {
-        font-size: 16px;
-    }
-
     .pattaya_pic {
         width: 343px;
         border-radius: 30px;
+    }
+}
+
+@media screen and (min-width: 4px) and (max-width: 380px) {
+
+    .rain_periods {
+        width: 255px;
+        margin-bottom: 16px;
+        border-radius: 15px;
+    }
+
+    .price_beach {
+        margin-top: 16px;
+    }
+
+    .pattaya_pic {
+        width: 255px;
+        border-radius: 15px;
     }
 }
