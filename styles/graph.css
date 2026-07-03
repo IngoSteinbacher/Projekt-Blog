@@ -9,106 +9,9 @@ body {
   padding: 0;
 }
 
-.head_page_3 {
-    display: flex;
-    justify-content: center;
-    margin-top: 208px;
-    padding: 0 16px;
-}
-
-.graph3 {
-    padding: 0 16px;
-}
-
-.head_text_thailand {
-    margin-right: 8px;
-}
-
-.avatar_women {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-}
-
-.extra_info {
-    width: 272px;
-    border-radius: 30px;
-    background-color: #4ea48733;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 16px;
-}
-
-.author_name {
-    font-size: 18px;
-}
-
-.author_titel {
-    font-size: 18px;
-}
-
-.author_info {
-    font-size: 16px;
-    color: #54370D;
-    line-height: 120%;
-    letter-spacing: 0%;
-}
-
-.icons {
-    display: flex;
-    margin-top: 32px;
-}
-
-.icons_space2 {
-    margin-right: 8px;
-}
-
-.icons_space {
-    margin-left: 16px;
-    margin-right: 8px;
-}
-
-.icons_img {
-    width: 16px;
-    height: 16px;
-}
-
-.icon_text {
-    font-family: "Palanquin";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 120%;
-    letter-spacing: 0%;
-}
-
 .pat_tour_text {
     display: flex;
     justify-content: center;
-}
-
-.pattaya_tour {
-    font-size: 24px;
-    margin-top: 32px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: #3d3d3d;
-}
-
-.rain_diagramm {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 24px;
-}
-
-.rain_titel {
-    font-family: "Arima";
-    font-size: 32px;
-    font-weight: 600;
-    color: #54370D;
-    text-align: center;
-    margin-bottom: 24px;
 }
 
 .rain_periods {
@@ -127,25 +30,9 @@ body {
 
 .pattaya_pic {
     width: 519px;
+    margin-top: 16px;
     border-radius: 53px;
     box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 25%);
-}
-
-.price_titel {
-    font-family: "Arima";
-    font-size: 32px;
-    font-weight: 600;
-    color: #54370D;
-    margin-bottom: 34px;
-    text-align: center;
-}
-
-.pr_beach {
-    font-size: 24px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    margin-bottom: 16px;
-    color: #3d3d3d;
 }
 
 .diagr_beach {
@@ -153,84 +40,9 @@ body {
     margin-right: 80px;
 }
 
-.digar_price {
-    text-align: center;
-}
-
 .pat_text {
     display: flex;
     justify-content: center;
-}
-
-.pattaya_text {
-    margin-top: 80px;
-    font-size: 24px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    width: 1200px;
-    color: #3d3d3d;
-}
-
-.share_pic {
-    width: 38px;
-    height: 38px;
-    object-fit: contain;
-}
-
-.share_sec {
-    display: flex;
-    justify-content: center;
-    margin-top: 48px;
-    margin-bottom: 48px;
-}
-
-.share_butt {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.button_share {
-    margin-top: 48px;
-    border-radius: 40px;
-    border-color: #4EA487;
-    width: 158px;
-    height: 48px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    color: #F1C953;
-    background-color: #4EA487;
-    font-family: "Arima";
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 120%;
-    letter-spacing: 5%;
-}
-
-.share_text {
-    font-family: "Arima";
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 120%;
-    letter-spacing: 0%;
-    color: #54370D;
-    text-align: center;
-}
-
-.arrow {
-  width: 107px;
-  height: 65px;
-  z-index: 1;
-  position: absolute;
-  left: 0px;
-  bottom: 0px;
-  rotate: -135deg;
-}
-
-@media screen and (min-width: 1230px) and (max-width: 1350px) {
-    
 }
 
 @media screen and (min-width: 315px) and (max-width: 1280px) {
@@ -238,6 +50,12 @@ body {
     .price_beach {
         display: flex;
         flex-direction: column;
+    }
+
+    .diagr_price {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .diagr_beach {
@@ -250,10 +68,6 @@ body {
 }
 
 @media screen and (min-width: 4px) and (max-width: 840px) {
-
-    .head_page_3 {
-        flex-direction: column;
-    }
 
     .first_section_text {
         font-size: 18px;
@@ -292,24 +106,8 @@ body {
         font-size: 16px;
     }
 
-    .pattaya_text {
-        font-size: 16px;
-        margin-top: 16px;
-    }
-
     .pattaya_pic {
         width: 343px;
         border-radius: 30px;
-    }
-
-    .share_text {
-        font-size: 18px;
-    }
-
-    .arrow {
-        width: 50px;
-        height: 30.41px;
-        rotate: -100.35deg;
-        bottom: 32px;
     }
 }
