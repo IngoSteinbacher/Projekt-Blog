@@ -98,6 +98,22 @@ summary::after {
 details[open] summary::after {
   transform: rotate(90deg); 
 }
+#calender-icon{
+  width: 16px;
+  height: 18px;
+}
+#eyeglasses-icon{
+  width: 20px;
+  height: 7px;
+}
+#visibility-icon{
+  width: 20px;
+  height: 14px;
+}
+#share-icon{
+  width: 16px;
+  height: 18px;
+}
 
 @media screen and (min-width: 1280px) and (max-width: 30000px){
 

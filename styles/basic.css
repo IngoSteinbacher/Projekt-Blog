@@ -92,23 +92,29 @@ body {
   flex-direction: column;
 }
 .read-counter_video {
+  width: 740px;
   display: flex;
   flex-direction: row;
-
-  gap: 16px;
   margin-top: 32px;
   margin-bottom: 32px;
 }
 .date_time {
-  width: 50%;
+  width: 320px;
   display: flex;
-  justify-content: space-around;
+  gap: 6px;
+  align-items: center;
+}
+.date_time p{
+  margin-right: 32px;
 }
 .read_share {
-  width: 50%;
+  width: 361px;
   display: flex;
-  justify-content: space-around;
-  
+  gap: 6px;
+  align-items: center;
+}
+.read_share p{
+  margin-right: 32px;
 }
 .video_info {
   max-width: 272px;
@@ -470,11 +476,12 @@ input[type="checkbox"] {
 
 @media screen and (min-width: 1440px) {
   .main-page {
-    padding: 0px max(12px, calc(50% - 720px));
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 0px max( calc(50% - 720px));
+  
   }
+  .top{
 
+  }
   .impress {
     padding: 0px max(12px, calc(50% - 720px));
   }
@@ -507,25 +514,20 @@ input[type="checkbox"] {
   .header2 {
     display: none;
   }
+
 }
 @media screen and (min-width: 484px) and (max-width: 767px) {
   .info {
     margin: 54px 20px;
   }
 }
-@media screen and (min-width: 841px) and (max-width: 940px) {
-  .read-counter_video {
+@media screen and (min-width: 841px) and (max-width: 1075px){
+  .headline {
     flex-direction: column;
   }
-  .date_time {
-    width: 100%;
-    justify-content: flex-start;
-    gap: 24px;
-  }
-  .read_share {
-    width: 100%;
-    justify-content: flex-start;
-    gap: 24px;
+  .video_info {
+    margin-top: 24px;
+    max-width: 100%;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
@@ -637,15 +639,8 @@ input[type="checkbox"] {
   .read-counter_video {
     flex-direction: column;
   }
-  .date_time {
-    justify-content: flex-start;
-    gap: 24px;
-    width: 100%;
-  }
-  .read_share {
-    justify-content: flex-start;
-    gap: 24px;
-    width: 100%;
+  .date_time{
+    margin-bottom: 8px;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {
