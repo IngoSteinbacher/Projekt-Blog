@@ -476,11 +476,7 @@ input[type="checkbox"] {
 
 @media screen and (min-width: 1440px) {
   .main-page {
-    padding: 0px max( calc(50% - 720px));
-  
-  }
-  .top{
-
+    padding: 0px max( calc(50% - 720px));  
   }
   .impress {
     padding: 0px max(12px, calc(50% - 720px));
