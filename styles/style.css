@@ -98,7 +98,7 @@ summary::after {
   transition: transform 0.2s;
 }
 details[open] summary::after {
-  transform: rotate(90deg); 
+  transform: rotate(90deg);
 }
 #calender-icon{
   width: 16px;
