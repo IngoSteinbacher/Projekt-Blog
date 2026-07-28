@@ -152,7 +152,6 @@ body {
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
   .headline {
-    margin-top: 208px;
     display: flex;
     max-width: 99%;
     position: relative;
