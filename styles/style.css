@@ -129,7 +129,7 @@ summary::after{
   font-size: 16px;
 }
 details[open] p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .info h2{
   font-size: 24px;
@@ -147,10 +147,10 @@ summary::after{
   font-size: 16px;
 }
 details[open] p{
-  font-size: 12px;
+  font-size: 16px;
 }
 details p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .info h2{
   font-size: 24px;
@@ -171,7 +171,7 @@ summary::after{
   font-size: 16px;
 }
 details[open] p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .info h2{
   font-size: 24px;

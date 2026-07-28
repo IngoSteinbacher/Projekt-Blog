@@ -111,7 +111,7 @@ input[type="radio"]:checked {
   height: 160px;
   width: 160px;
 }
-.img_rotate:hover{
+.img_rotate{
   animation: rotating 4s linear infinite;
 }
 .top_hero{

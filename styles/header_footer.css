@@ -3,7 +3,7 @@
 }
 
 .navlink:hover {
-    color: black;
+    color: #F1C953;
 }
 
 .navimage{
@@ -25,7 +25,7 @@
     text-align: left;
     padding-top: 28px;
     padding-left: 12px;
-    max-width: 100%;
+    max-width: 100vw;
     
 }
 .nav_smal{
@@ -94,7 +94,7 @@
 }
 
 .navlink-foot:hover {
-    color: black;
+    color: #F1C953;
 }
 
 .footer-social-icon{

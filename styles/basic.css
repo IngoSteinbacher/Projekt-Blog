@@ -255,7 +255,7 @@ body {
   left: 0;
   right: 0;
   padding: 0;
-  max-width: 99%;
+  max-width: 100dvw;
   height: 128px;
   z-index: 1000;
 }
@@ -266,7 +266,7 @@ body {
   right: 0;
   background-color: #f1c953;
   height: 88px;
-  max-width: 99%;
+  max-width: 100dvw;
   padding: 0;
   z-index: 1000;
   border-bottom-left-radius: 12px;
@@ -278,8 +278,9 @@ footer {
   background-color: #4ea487;
   color: white;
   font-size: 16px;
-  width: 99dvw;
+  width: 100dvw;
   height: 152px;
+  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -501,7 +502,7 @@ input[type="checkbox"] {
 }
 @media screen and (min-width: 841px) and (max-width: 1280px) {
   .main-page {
-    padding: 0px 15px;
+    padding: 0px;
     width: 99dvw;
   }
   .main {
@@ -528,7 +529,7 @@ input[type="checkbox"] {
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
   .main-page {
-    padding: 0 15px;
+    padding: 0px;
     width: 99dvw;
   }
   .main {
@@ -641,7 +642,7 @@ input[type="checkbox"] {
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {
   .main-page {
-    padding: 0px 15px;
+    padding: 0px;
     width: 99dvw;
   }
   .main {
