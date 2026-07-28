@@ -654,7 +654,7 @@ input[type="checkbox"] {
     width: 95%;
   }
   .footer-right {
-    flex-direction: column;
+    flex-direction: row;
   }
   .footer-social-icon {
     height: 24px;
