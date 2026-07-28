@@ -160,6 +160,16 @@ body {
 }
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
+  .headline {
+    margin-top: 208px;
+    display: flex;
+    max-width: 99%;
+    position: relative;
+    min-height: 515px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
   .photo-container {
     display: none;
   }
@@ -409,5 +419,8 @@ body {
   }
   .responsive-text-mobeile span {
     font-size: 18px;
+  }
+  .scandy_tour {
+    font-size: 16px;
   }
 }
