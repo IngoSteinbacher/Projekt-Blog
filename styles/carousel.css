@@ -14,12 +14,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.main-page {
-  padding: 0;
-  margin: 0;
-  align-items: center;
-  width: 99%;
-}
+
 .impress {
   margin-top: 192px;
   margin-bottom: 64px;
@@ -99,11 +94,7 @@ body {
 }
 
 @media screen and (min-width: 1350px) and (max-width: 1440px) {
-  .main-page {
-    padding: 0px max(12px, calc(50% - 720px));
-    padding-left: 120px;
-    padding-right: 120px;
-  }
+
   .slider-responsive-mobeile {
     display: none;
   }

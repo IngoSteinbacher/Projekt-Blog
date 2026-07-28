@@ -5,7 +5,6 @@
 
 .slider_a {
   position: relative;
-  background-color: black;
   margin-top: 88px;
   width: 99%;
   height: 533px;
@@ -112,7 +111,7 @@ input[type="radio"]:checked {
   height: 160px;
   width: 160px;
 }
-.img_rotate:hover{
+.img_rotate{
   animation: rotating 4s linear infinite;
 }
 .top_hero{

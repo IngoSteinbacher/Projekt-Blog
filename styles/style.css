@@ -98,7 +98,23 @@ summary::after {
   transition: transform 0.2s;
 }
 details[open] summary::after {
-  transform: rotate(90deg); 
+  transform: rotate(90deg);
+}
+#calender-icon{
+  width: 16px;
+  height: 18px;
+}
+#eyeglasses-icon{
+  width: 20px;
+  height: 7px;
+}
+#visibility-icon{
+  width: 20px;
+  height: 14px;
+}
+#share-icon{
+  width: 16px;
+  height: 18px;
 }
 
 @media screen and (min-width: 1280px) and (max-width: 30000px){
@@ -113,7 +129,7 @@ summary::after{
   font-size: 16px;
 }
 details[open] p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .info h2{
   font-size: 24px;
@@ -131,10 +147,10 @@ summary::after{
   font-size: 16px;
 }
 details[open] p{
-  font-size: 12px;
+  font-size: 16px;
 }
 details p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .info h2{
   font-size: 24px;
@@ -155,7 +171,7 @@ summary::after{
   font-size: 16px;
 }
 details[open] p{
-  font-size: 12px;
+  font-size: 16px;
 }
 .info h2{
   font-size: 24px;
