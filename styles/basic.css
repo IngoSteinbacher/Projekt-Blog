@@ -531,10 +531,6 @@ input[type="checkbox"] {
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
   .main-page {
-<<<<<<< HEAD
-=======
-    padding: 0px;
->>>>>>> 899d7dce67a2921c6061fb18d769fcc1ec868e21
     width: 99dvw;
   }
   .main {
@@ -649,10 +645,6 @@ input[type="checkbox"] {
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {
   .main-page {
-<<<<<<< HEAD
-=======
-    padding: 0px;
->>>>>>> 899d7dce67a2921c6061fb18d769fcc1ec868e21
     width: 99dvw;
   }
   .main {
