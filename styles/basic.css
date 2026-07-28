@@ -75,7 +75,7 @@ body {
   max-width: 99%;
   position: relative;
   min-height: 515px;
-  padding: 0px 16px;
+  padding:16px;
 }
 .scandy_tour {
   font-size: 24px;
@@ -94,10 +94,6 @@ body {
   width: 740px;
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
-  gap: 16px;
-=======
->>>>>>> 899d7dce67a2921c6061fb18d769fcc1ec868e21
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -139,7 +135,6 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 0px 16px;
-  padding-bottom: 32px;
 }
 .video_img {
   width: 345px;
