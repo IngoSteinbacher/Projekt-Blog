@@ -89,7 +89,7 @@ body {
   line-height: 120%;
   letter-spacing: 0%;
   padding: 0px 16px;
-  padding-bottom: 16px;
+  padding-bottom: 137px;
 }
 .head_text_scandy {
   width: 85%;
@@ -143,7 +143,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 137px 0px;
+  padding-bottom: 137px;
   width: 100%;
  
 }
@@ -543,7 +543,10 @@ input[type="checkbox"] {
   
   }
   .video_content{
-    padding: 24px 0px;
+    padding-bottom: 24px;
+  }
+  .scandy_tour{
+    padding-bottom: 24px;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
@@ -620,6 +623,9 @@ input[type="checkbox"] {
   }
   .video_content{
     padding: 24px 0px;
+  }
+    .scandy_tour{
+    padding-bottom: 24px;
   }
   .video_img {
     height: 192px;
