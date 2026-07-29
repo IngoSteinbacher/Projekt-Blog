@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -13,12 +14,18 @@ body {
   width: 99%;
   margin: 0;
   padding: 0;
+  min-height: 100vh;
 }
 .main-page {
+  scroll-behavior: smooth;
+  flex: 1;
   padding: 0;
   margin-top: 128px;
   align-items: center;
   width: 99%;
+}
+.main-a{
+  text-decoration: none;
 }
 .impress {
   margin-top: 192px;
@@ -71,7 +78,7 @@ body {
   margin: 12px 0;
 }
 .headline {
-  display: flex;
+ 
   max-width: 99%;
   position: relative;
   min-height: 515px;
@@ -94,10 +101,7 @@ body {
   width: 740px;
   display: flex;
   flex-direction: row;
-<<<<<<< HEAD
   gap: 16px;
-=======
->>>>>>> 899d7dce67a2921c6061fb18d769fcc1ec868e21
   margin-top: 32px;
   margin-bottom: 32px;
 }
@@ -121,7 +125,7 @@ body {
 }
 .video_info {
   max-width: 272px;
-  max-height: 389px;
+  max-height: 400px;
   top: 0;
   right: 0;
   display: flex;
@@ -132,24 +136,27 @@ body {
   background-size: cover;
   padding: 12px;
   margin-bottom: 48px;
+  margin-top: 24px;
 }
 .video_content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 0px 16px;
-  padding-bottom: 32px;
+  padding: 137px 0px;
+  width: 100%;
+ 
 }
 .video_img {
-  width: 345px;
+  width: 931px;
+  height: 520px;
   display: flex;
   background-image: url(../img/Video.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   border-radius: 53px;
-  padding-top: 16px;
+  
 
 }
 .description_content {
@@ -346,7 +353,9 @@ input[type="checkbox"] {
   position: relative;
   width: 100%;
 }
-
+.flex{
+  display: flex;
+}
 .form-group {
   display: flex;
   flex-direction: column;
@@ -528,6 +537,14 @@ input[type="checkbox"] {
     margin-top: 24px;
     max-width: 100%;
   }
+  .video_img{
+    width: 642px;
+    height: 332px;
+  
+  }
+  .video_content{
+    padding: 24px 0px;
+  }
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
   .main-page {
@@ -601,6 +618,9 @@ input[type="checkbox"] {
     padding-bottom: 16px;
     padding-top: 16px;
   }
+  .video_content{
+    padding: 24px 0px;
+  }
   .video_img {
     height: 192px;
     background-size: contain;
@@ -667,4 +687,5 @@ input[type="checkbox"] {
     width: 33px;
     margin: 4px;
   }
+  
 }

@@ -67,6 +67,7 @@
 }
 details{
   color: #54370d;
+
 }
 .contact_a{
   color: #4ea487;
@@ -85,17 +86,29 @@ summary {
   border-radius: 12px;
   background-color: #f1c953;
   padding: 16px 14px;
-  margin: 16px 16px;
+  margin-top: 16px;
+
+}
+.faq-cont{
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.8s ease-out;
+  overflow: hidden;
+}
+details[open] .details-content {
+  grid-template-rows: 1fr;
 }
 details p{
-  width: 100%;
-  padding: 0px 32px;
+  width: 95%;
+  border: 20px solid #f1c953;
+  border-radius: 12px;
 }
 summary::after {
   margin-right: 30px;
   content: '>'; 
   font-size: 24px;
-  transition: transform 0.2s;
+  transition: transform 0.8s;
+
 }
 details[open] summary::after {
   transform: rotate(90deg);
@@ -178,5 +191,8 @@ details[open] p{
 }
 .info h3{
   font-size: 20px;
+}
+.font_h1{
+  font-size: 40px;
 }
 }

@@ -38,6 +38,7 @@
   height: 100%;
   overflow: hidden;
 }
+
 .element1{
   background-size: cover;
   background-image: url(../img/slide_01.png);
