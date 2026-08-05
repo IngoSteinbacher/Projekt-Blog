@@ -25,11 +25,13 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 88px;
+    margin-bottom: 88px;
     padding: 0 16px;
 }
 
 .pattaya_pic {
     width: 519px;
+    height: 471px;
     margin-top: 16px;
     border-radius: 53px;
     box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 25%);
@@ -43,6 +45,13 @@ body {
 .pat_text {
     display: flex;
     justify-content: center;
+}
+
+.p_80{
+    padding-top: 80px;
+}
+.p_88_t{
+    margin-top: 66px;
 }
 
 @media screen and (min-width: 315px) and (max-width: 1280px) {
@@ -81,6 +90,7 @@ body {
 
     .pattaya_pic {
         width: 343px;
+        height: 294px;
         border-radius: 30px;
     }
 }
@@ -99,6 +109,7 @@ body {
 
     .pattaya_pic {
         width: 255px;
+        height: 207px;
         border-radius: 15px;
     }
 }

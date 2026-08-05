@@ -88,7 +88,6 @@ body {
   line-height: 120%;
   letter-spacing: 0%;
   padding: 0px 16px;
-  padding-bottom: 137px;
 }
 .head_text_scandy {
   width: 85%;
@@ -142,7 +141,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 137px;
+  /* padding-bottom: 137px; */
   width: 100%;
  
 }
@@ -155,7 +154,7 @@ body {
   background-size: cover;
   background-position: center top;
   border-radius: 53px;
-  
+  margin-top: 137px;
 
 }
 .description_content {
@@ -545,6 +544,9 @@ input[type="checkbox"] {
     height: 332px;
   
   }
+  .video_2{
+    padding-bottom: 24px;
+  }
   .video_content{
     padding-bottom: 24px;
   }
@@ -634,6 +636,9 @@ input[type="checkbox"] {
   .video_img {
     height: 192px;
     background-size: contain;
+  }
+  .video_2 p{
+    font-size: 16px;
   }
   .video_content p {
     font-size: 16px;
