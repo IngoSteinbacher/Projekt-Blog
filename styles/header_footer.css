@@ -2,6 +2,9 @@
 
 .navlink:hover {
     color: #F1C953;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: from-font;
 }
 
 .navimage{
@@ -88,6 +91,7 @@
 
 .navlink-foot:hover {
     color: #F1C953;
+    
 }
 
 .footer-social-icon{
