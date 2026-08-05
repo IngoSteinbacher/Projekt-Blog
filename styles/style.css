@@ -153,7 +153,14 @@ details[open] summary::after {
   width: 16px;
   height: 18px;
 }
+.video_1{
+  margin: 88px 0px;
+}
 
+
+.video_4{
+  margin: 33.5px;
+}
 @media screen and (min-width: 1280px) and (max-width: 30000px){
 
 }

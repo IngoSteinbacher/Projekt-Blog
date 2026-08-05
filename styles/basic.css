@@ -161,16 +161,20 @@ body {
 .description_content {
 padding-left: 30px;
 padding-right: 16px;
+padding-bottom: 32px;
 font-size: 24px;
 line-height: 1;
 }
 .description_content ul {
-  margin: 16px 0;
+  margin: 16px 16px;
 }
 .desc_cont {
   padding-top: 16px;
+  margin: 0px 33.5px;
 }
-
+.desc_1{
+  margin-bottom: 32px;
+}
 .tip_content {
   max-width: 100%;
   height: auto;
@@ -496,10 +500,10 @@ input[type="checkbox"] {
     padding: 0px max(12px, calc(50% - 720px));
   }
   #footer-placeholder {
-    padding: 0px max(12px, calc(50% - 720px));
+    padding: 0px max(0px, calc(50% - 720px));
   }
   #footer_header-placeholder {
-    padding: 0px max(12px, calc(50% - 720px));
+    padding: 0px max(0px, calc(50% - 720px));
   }
   .header2 {
     display: none;
