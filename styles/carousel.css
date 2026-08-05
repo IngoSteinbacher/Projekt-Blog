@@ -176,6 +176,7 @@
     justify-content: center;
     transform: perspective(250px) rotatey(20deg) translateX(-20px);
     padding-bottom: 60px;
+    gap: 24px;
   }
 
   .slider-photos-element {
