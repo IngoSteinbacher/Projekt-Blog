@@ -76,12 +76,13 @@ body {
   width: 120px;
   margin: 12px 0;
 }
-.headline {
- 
-  max-width: 99%;
-  position: relative;
-  min-height: 515px;
-  padding:16px;
+.headline { 
+    display: flex;
+    max-width: 99%;
+    position: relative;
+    min-height: 515px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 .scandy_tour {
   font-size: 24px;
@@ -297,7 +298,7 @@ footer {
   right: 0;
 }
 #footer-placeholder {
-  max-width: 100%;
+  max-width: 100dvw;
 }
 .text_center {
   margin-left: 40px;
@@ -487,7 +488,18 @@ input[type="checkbox"] {
   height: 32px;
   height: 32px;
 }
-
+.crs_1{
+  flex-direction: column;
+  width: 1220px;
+  justify-content: center;
+  align-items: center;
+}
+.p_80{
+    padding-top: 80px;
+}
+.m_64{
+  margin-top: 64px;
+}
 @media screen and (min-width: 1440px) {
   .main-page {
     padding: 0px max( calc(50% - 720px));  
@@ -507,9 +519,18 @@ input[type="checkbox"] {
   .header2 {
     display: none;
   }
+  .slider-responsive-mobeile{
+    display: none;
+  }
+  .crs_1{
+    padding: 0px max{calc(50% - 720px)};
+  }
 }
 @media screen and (min-width: 1280px) {
   .header2 {
+    display: none;
+  }
+  .slider-responsive-mobeile{
     display: none;
   }
 }
@@ -524,7 +545,9 @@ input[type="checkbox"] {
   .header2 {
     display: none;
   }
-
+  .crs_1{
+    padding: 0px max{calc(50% - 720px)};
+  }
 }
 @media screen and (min-width: 484px) and (max-width: 767px) {
   .info {

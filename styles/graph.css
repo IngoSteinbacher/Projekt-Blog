@@ -1,14 +1,3 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  overflow-x: hidden;
-  width: 99%;
-  margin: 0;
-  padding: 0;
-}
-
 .pat_tour_text {
     display: flex;
     justify-content: center;
@@ -52,10 +41,6 @@ body {
 .pat_text {
     display: flex;
     justify-content: center;
-}
-
-.p_80{
-    padding-top: 80px;
 }
 .p_88_t{
     margin-top: 66px;

@@ -1,25 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  overflow-x: hidden;
-  width: 99%;
-  margin: 0;
-  padding: 0;
-}
-
-.impress {
-  margin-top: 192px;
-  margin-bottom: 64px;
-}
-
 .photo-ocean-profile {
   width: 120px;
   height: 120px;
@@ -47,8 +25,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  padding-left: 40px;
 }
-
+.content-beaches-photos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .slider-photos {
   width: 300px;
   height: 440px;
@@ -101,11 +86,7 @@ body {
 }
 
 @media screen and (min-width: 1270px) and (max-width: 1350px) {
-  .main-page {
-    padding: 0px max(12px, calc(50% - 720px));
-    padding-left: 100px;
-    padding-right: 100px;
-  }
+
   .slider-photos {
     width: 275px;
     height: 400px;
@@ -151,15 +132,7 @@ body {
 }
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
-  .headline {
-    display: flex;
-    max-width: 99%;
-    position: relative;
-    min-height: 515px;
-    padding-left: 16px;
-    padding-right: 16px;
-  }
-  
+
   .photo-container {
     display: none;
   }
