@@ -54,7 +54,7 @@ body {
 
 .top {
   display: flex;
-  max-width: 99%;
+  max-width: 100%;
   position: relative;
   height: 515px;
   padding: 0px 12px;
@@ -142,9 +142,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* padding-bottom: 137px; */
   width: 100%;
- 
 }
 .video_img {
   width: 931px;
@@ -159,21 +157,27 @@ body {
 
 }
 .description_content {
+  max-width: 100%;
 padding-left: 30px;
 padding-right: 16px;
 padding-bottom: 32px;
 font-size: 24px;
 line-height: 1;
 }
-.description_content ul {
+.description_content ol {
   margin: 16px 16px;
 }
 .desc_cont {
+  max-width: 100%;
   padding-top: 16px;
   margin: 0px 33.5px;
 }
 .desc_1{
   margin-bottom: 32px;
+}
+.left_max{
+  width: 100%;
+  align-items: start;
 }
 .tip_content {
   max-width: 100%;
@@ -182,7 +186,7 @@ line-height: 1;
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 0 34px;
+  padding: 24px 34px;
 }
 .tipps-icon {
   z-index: 2;
@@ -385,6 +389,10 @@ input[type="checkbox"] {
   max-width: 100%;
   font-size: 24px;
   margin-bottom: 16px;
+  margin-top: 16px;
+}
+.m_64{
+  margin-top: 64px;
 }
 .form_u {
   padding: 0px 16px;
@@ -523,7 +531,7 @@ input[type="checkbox"] {
     display: none;
   }
   .crs_1{
-    padding: 0px max{calc(50% - 720px)};
+    padding: 0px max(calc(50% - 720px));
   }
 }
 @media screen and (min-width: 1280px) {
@@ -546,7 +554,7 @@ input[type="checkbox"] {
     display: none;
   }
   .crs_1{
-    padding: 0px max{calc(50% - 720px)};
+    padding: 0px max(calc(50% - 720px));
   }
 }
 @media screen and (min-width: 484px) and (max-width: 767px) {
@@ -575,6 +583,9 @@ input[type="checkbox"] {
   }
   .scandy_tour{
     padding-bottom: 24px;
+  }
+  .description_content {
+    padding: 8px 16px;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
@@ -647,8 +658,7 @@ input[type="checkbox"] {
   }
   .description_content {
     font-size: 16px;
-    padding-bottom: 16px;
-    padding-top: 16px;
+    padding: 8px 16px;
   }
   .video_content{
     padding: 24px 0px;
@@ -700,6 +710,9 @@ input[type="checkbox"] {
   }
   .date_time{
     margin-bottom: 8px;
+  }
+  .m_64{
+    margin-top: 24px;
   }
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {

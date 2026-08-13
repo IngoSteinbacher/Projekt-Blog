@@ -121,12 +121,11 @@ input[type="radio"]:checked {
   left: 340px;
 }
 .img_rotate{
-  animation: rotating 4s linear infinite;
+  animation: rotating 10s linear infinite;
 }
 .top_hero{
   position: absolute;
   left: 0;
-  ;
   width: 647px;
   height: 540px;
   background-image: url(../img/Vector16.svg);
@@ -155,15 +154,17 @@ input[type="radio"]:checked {
 
 }
 @media screen and (min-width: 4px) and (max-width: 479px){
-  .img_pos{
-    top: 121px;
-    left: 71px;
-  }
+
+
 }
 @media screen and (min-width: 4px) and (max-width: 1110px) {
   .img_pos{
     top: 121px;
     left: 71px;
+  }
+  .img_pos1{
+    top: 175px;
+    left: -32px;
   }
   .top_hero{
     width: 220px;

@@ -181,9 +181,7 @@ details[open] summary::after {
   font-size: 16px;
 
 }
-/* summary::after{
-  font-size: 16px;
-} */
+
 details[open] p{
   font-size: 16px;
 }
