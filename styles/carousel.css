@@ -133,6 +133,14 @@
 
 @media screen and (min-width: 500px) and (max-width: 900px) {
 
+
+
+    .p_80 {
+    padding-top: 35px;
+  }
+  .video_info {
+    margin-bottom: 35px; 
+  }
   .photo-container {
     display: none;
   }
@@ -255,6 +263,14 @@
 }
 
 @media screen and (min-width: 374px) and (max-width: 500px) {
+  
+  .p_80 {
+    padding-top: 24px;
+  }
+  .video_info {
+    margin-bottom: 24px; 
+  }
+
   .photo-container {
     display: none;
   }
