@@ -106,6 +106,8 @@ summary {
   min-height: 56px;
   border-top-right-radius: 12px;
   border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
   background-color: #f1c953;
   padding: 16px 14px;
   margin-top: 16px;
@@ -119,23 +121,34 @@ summary {
 }
 details[open] .details-content {
   grid-template-rows: 1fr;
+  
 }
 details p{
   width: 95%;
   border: 20px solid #f1c953;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
+  font-size: 16px;
 }
 summary::after {
   margin-right: 30px;
   content: '>'; 
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 36px;
+  font-weight: 900;
+  transform: rotate(90deg);
   transition: transform 0.8s;
 
 }
+.faq_font{
+  font-size: 24px;
+  margin-right: 16px;
+}
 details[open] summary::after {
   transform: rotate(-90deg);
+}
+details[open] summary {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 #calender-icon{
   width: 16px;
@@ -198,7 +211,8 @@ details[open] p{
 
 }
 summary::after{
-  font-size: 16px;
+  font-size: 24px;
+  font-weight: 900;
 }
 details[open] p{
   font-size: 16px;
@@ -222,7 +236,8 @@ details p{
 
 }
 summary::after{
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: 900;
 }
 details[open] p{
   font-size: 16px;

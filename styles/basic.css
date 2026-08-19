@@ -544,7 +544,7 @@ input[type="checkbox"] {
 }
 @media screen and (min-width: 841px) and (max-width: 1280px) {
   .main-page {
-    padding: 8px 0px;
+    padding: 0px 8px;
     width: 99dvw;
   }
   .main {
@@ -590,7 +590,7 @@ input[type="checkbox"] {
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
   .main-page {
-    padding: 8px 0px;
+    padding: 0px 8px;
     width: 99dvw;
   }
   .main {
@@ -716,9 +716,6 @@ input[type="checkbox"] {
   }
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {
-  .main-page {
-    width: 99dvw;
-  }
   #faq {
     width: 95%;
   }
