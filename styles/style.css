@@ -89,8 +89,7 @@
 details{
   color: #54370d;
   width: 100%;
-  overflow: hidden;
-  transition: height 2s ease-in-out;
+  
 }
 .contact_a{
   color: #4ea487;
@@ -117,21 +116,26 @@ summary {
   line-height: 120%;
 }
 
-details[open] .details-content {
-  grid-template-rows: 1fr;
-  
+details::details-content {
+  transition: height 1000ms ease-out, content-visibility 600ms ease allow-discrete;
+  height: 0;  
+  overflow: hidden;
 }
+
+details[open]::details-content {
+  height: 80px;
+}
+
 details p{
   width: 100%;
   border: 20px solid #f1c953;
   border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
   font-size: 16px;
-  padding: 4px 10px;
+  padding: 4px 16px;
   text-align: left;
   line-height: 120%;
-  opacity: 1;
-  transition: opacity 8s ease-in-out;
+  
 }
 summary::after {
   margin-right: 30px;
@@ -241,6 +245,9 @@ details p{
 .font_h1{
   font-size: 40px;
 }
+details[open]::details-content {
+  height: 130px;
+}
 }
 @media screen and (min-width: 4px) and (max-width: 483px){
 .faq_font{
@@ -262,5 +269,8 @@ details[open] p{
 }
 .font_h1{
   font-size: 40px;
+}
+details[open]::details-content {
+  height: 239px;
 }
 }

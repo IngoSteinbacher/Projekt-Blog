@@ -21,7 +21,7 @@ body {
   flex: 1;
   margin-top: 128px;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
 }
 .main-page1 {
   flex: 1;
@@ -246,7 +246,7 @@ line-height: 1;
 .info {
   position: relative;
   top: 0;
-  max-width: 833px;
+  max-width: 881px;
   margin: 54px 38px;
   object-fit: cover;
   text-align: left;
@@ -323,6 +323,7 @@ footer {
 .index_img {
   height: 48px;
   width: 48px;
+  padding-right: 8px;
 }
 .text_zentriert {
   display: flex;
@@ -441,7 +442,6 @@ input[type="checkbox"] {
   width: 48%;
 }
 .mrg_top {
-  padding: 0 16px;
   margin-top: 64px;
   margin-bottom: 64px;
 }
@@ -557,10 +557,6 @@ input[type="checkbox"] {
   }
 }
 @media screen and (min-width: 841px) and (max-width: 1280px) {
-  /* .main-page {
-    padding: 0px 8px;
-    width: 99dvw;
-  } */
   .main {
     padding: 0px 30px;
   }

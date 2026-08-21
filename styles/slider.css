@@ -50,7 +50,7 @@
 }
 .element2{
   background-size: cover;
-  background-image: url(../img/slide_02.png);
+  background-image: url(../img/slide_02.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -61,7 +61,7 @@
   background-repeat: no-repeat;
 }.element4{
   background-size: cover;
-  background-image: url(../img/slide_04.png);
+  background-image: url(../img/slide_04.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
