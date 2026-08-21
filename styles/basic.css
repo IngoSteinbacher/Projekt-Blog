@@ -28,7 +28,7 @@ body {
   margin-top: 128px;
   align-items: center;
   width: 100%;
-  padding: 15px 0px;
+  padding: 0px 15px;
 }
 .main-a{
   text-decoration: none;
@@ -107,7 +107,7 @@ body {
   flex-direction: column;
 }
 .read-counter_video {
-  width: 740px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -115,22 +115,25 @@ body {
   margin-bottom: 32px;
 }
 .date_time {
-  width: 320px;
+  width: 460px;
   display: flex;
   gap: 6px;
   align-items: center;
 }
-.date_time p{
-  margin-right: 32px;
+.date_time img{
+  margin-right: 8px;
+}
+.date_time p {
+  margin-right: 4px;
 }
 .read_share {
-  width: 361px;
+  width: 100%;
   display: flex;
   gap: 6px;
   align-items: center;
 }
 .read_share p{
-  margin-right: 32px;
+  margin-right: 8px;
 }
 .video_info {
   max-width: 272px;
@@ -310,7 +313,7 @@ footer {
   right: 0;
 }
 #footer-placeholder {
-  max-width: 105%;
+  max-width: 100%;
 }
 .text_center {
   margin-left: 40px;
@@ -462,17 +465,17 @@ input[type="checkbox"] {
 }
 .follow_contant {
   display: flex;
-  width: 493px;
+  /* width: 100%; */
   height: 154px;
   position: relative;
   text-align: center;
   justify-content: center;
 }
 .follow_inf {
-  width: 463px;
+  /* width: 463px; */
   height: 58px;
   align-items: center;
-  padding: 0 12px;
+  /* padding: 0 12px; */
 }
 .follow_inf h4 {
   font-size: 24px;
@@ -482,7 +485,7 @@ input[type="checkbox"] {
   height: 65px;
   z-index: 1;
   position: absolute;
-  left: 0px;
+  left: -20px;
   bottom: 0px;
   rotate: -135deg;
 }
@@ -516,9 +519,7 @@ input[type="checkbox"] {
 .p_80{
     padding-top: 80px;
 }
-.m_64{
-  margin-top: 64px;
-}
+
 @media screen and (min-width: 1440px) {
   .main-page {
     padding: 0px max(0px, calc(50% - 720px));  
@@ -570,8 +571,10 @@ input[type="checkbox"] {
     display: none;
   }
 }
-@media screen and (min-width: 484px) and (max-width: 767px) {
-
+@media screen and (min-width: 841px) and (max-width: 1135px) {
+  .date_time p {
+    margin-right: 0;
+  }
 }
 @media screen and (min-width: 841px) and (max-width: 1075px){
   .headline {
@@ -666,6 +669,8 @@ input[type="checkbox"] {
     width: 50px;
     height: 30.5px;
     rotate: -100.35deg;
+      left: -10px;
+    bottom: 45px;
   }
   .tipps-container {
     font-size: 16px;
@@ -674,16 +679,35 @@ input[type="checkbox"] {
     font-size: 16px;
     padding: 8px 16px;
   }
+  .description_content ol{
+    margin: 0px 16px;
+  }
   .video_content{
-    padding: 24px 0px;
+    padding-top: 24px;
+    padding-bottom: 8px;
   }
     .scandy_tour{
-    padding-bottom: 24px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+      font-size: 16px;
+  }
+  .date_time p{
+    margin-right: 6px;
+  }
+  .read_share p {
+    margin-right: 6px;
   }
   .video_img {
     height: 192px;
+    width: 100%;
     background-size: contain;
-    
+    margin-top: 8px;
+  }
+  .tipps-container{
+    padding-top: 40px;
+  }
+  .desc_cont{
+    padding-bottom: 24px;
   }
   .video_2 p{
     font-size: 16px;
@@ -714,20 +738,18 @@ input[type="checkbox"] {
     font-size: 18px;
   }
   .btn-cont {
-    left: 180px;
-  }
-  .follow_img {
     left: 60px;
-    bottom: 40px;
+    bottom: 5px;
   }
   .read-counter_video {
     flex-direction: column;
+    margin-top: 0px;
   }
   .date_time{
     margin-bottom: 8px;
   }
   .m_64{
-    margin-top: 24px;
+    margin-top: 0px;
   }
   .first_1{
     display: none;

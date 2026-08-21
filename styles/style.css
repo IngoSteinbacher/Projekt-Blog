@@ -60,10 +60,21 @@
   font-family: 'Palanquin';
   font-weight: 700;
 }
-
+.a_700_100{
+  font-family: 'Arima';
+  font-weight: 700;
+  line-height: 100%;
+  padding-bottom: 16px;
+}
 .palanquin600{
   font-family: 'Palanquin';
   font-weight: 600;
+}
+.p_600_120{
+  font-family: 'Palanquin';
+  font-weight: 600;
+  line-height: 120%;
+  padding-bottom: 16px;
 }
 .p_400{
   font-family: 'Palanquin';
@@ -178,6 +189,7 @@ details[open] summary {
 }
 .video_1{
   margin: 88px 0px;
+  width: 100%;
 }
 .video_2{  
   display: flex;
@@ -188,7 +200,7 @@ details[open] summary {
   width: 100%;
 }
 .video_4{
-  margin: 33.5px;
+  margin: 16px 0;
 }
 .graph_1{
   width: 100%;
@@ -273,4 +285,7 @@ details[open] p{
 details[open]::details-content {
   height: 239px;
 }
+  .video_2{
+    padding-bottom: 24px;
+  }
 }
