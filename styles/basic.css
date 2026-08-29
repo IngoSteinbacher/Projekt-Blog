@@ -114,8 +114,7 @@ body {
   margin-top: 32px;
   margin-bottom: 32px;
 }
-.date_time {
-  width: 460px;
+.date_time {      
   display: flex;
   gap: 6px;
   align-items: center;
@@ -481,10 +480,9 @@ input[type="checkbox"] {
 
 .share-row {
   position: relative;
-  width: 477px;
   display: flex;
   align-items: flex-end;
-  justify-content: flex-start;
+  justify-content: center;
   z-index: 2;
 }
 
