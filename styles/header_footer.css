@@ -47,13 +47,6 @@
     display: flex;
     width: 600px;
 }
-.navlink:focus{
-    color: #F1C953;
-    pointer-events: none;
-}
-.navlink:hover {
-    color: white;
-}
 
 .navimage{
     height: 72px;
