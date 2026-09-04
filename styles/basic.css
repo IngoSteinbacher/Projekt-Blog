@@ -115,9 +115,12 @@ body {
   margin-bottom: 32px;
 }
 .date_time {      
-  display: flex;
-  gap: 6px;
-  align-items: center;
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    align-items: baseline;
 }
 .date_time img{
   margin-right: 8px;
@@ -825,6 +828,9 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
   }
   .desc_cont{
     padding-bottom: 24px;
+  }
+  .desc_cont ol{
+    margin: 0px 16px;
   }
   .video_2 p{
     font-size: 16px;
