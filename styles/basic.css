@@ -644,6 +644,9 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
   .main-page {
     padding: 0px max(0px, calc(50% - 720px));  
   }
+  .main-page1 {
+    padding: 0px max(0px, calc(50% - 720px));  
+  }
   .impress {
     padding: 0px max(12px, calc(50% - 720px));
   }
