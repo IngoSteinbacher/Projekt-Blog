@@ -1,10 +1,14 @@
 
 
 .navlink:hover {
-    color: #F1C953;
+    color: black;
     text-decoration: underline;
     text-decoration-style: dotted;
     text-decoration-thickness: from-font;
+}
+.navlink:focus{
+    color: #F1C953;
+    pointer-events: none;
 }
 
 .navimage{
