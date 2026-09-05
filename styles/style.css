@@ -148,14 +148,14 @@ details p{
   line-height: 120%;
   
 }
+
 summary::after {
-  margin-right: 30px;
+  transform-origin: 80% 90%;
   content: '>'; 
   font-size: 48px;
   font-weight: 900;
   transform: rotate(90deg);
   transition: transform 0.8s;
-
 }
 .faq_font{
   font-size: 24px;

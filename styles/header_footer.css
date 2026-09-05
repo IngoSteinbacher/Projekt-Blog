@@ -1,10 +1,26 @@
+<<<<<<< HEAD
 .navlink {
     position: relative;
     display: inline-block;
     color: white;
     text-decoration: none;
+=======
+.post {
+    display: flex;
+    position: relative;
+    width: 120px;
+    height: 48px;
+    cursor: pointer;
+>>>>>>> 131f3fea3dc3641badb625005a0b0c016eda5473
 }
+.post1{
+    display: flex;
+    position: relative;
+    width: 180px;
+    height: 48px;
+    cursor: pointer;
 
+<<<<<<< HEAD
 
 
 .navlink:hover::after {
@@ -17,9 +33,47 @@
     border-bottom: 3px solid #f5c542;
     border-radius: 0 0% 100% 100%;
     transform: rotate(358deg);
+=======
+>>>>>>> 131f3fea3dc3641badb625005a0b0c016eda5473
 }
+.post2{
+    display: flex;
+    position: relative;
+    width: 110px;
+    height: 48px;
+    cursor: pointer;
 
+<<<<<<< HEAD
 
+=======
+}
+.post-i {
+    position: absolute;
+    top: 25px;
+    left: 75px;
+    width: 0px;
+    height: 20px;
+    transform: rotate(-6deg);
+    overflow: hidden;
+    transition: width 700ms ease-out;
+}
+.post1:hover .post-i {
+   width: 100px;
+    
+}
+.post2:hover .post-i {
+   width: 100px;
+    
+}
+.post:hover .post-i {
+   width: 100px;
+    
+}
+.nav_big{
+    display: flex;
+    width: 600px;
+}
+>>>>>>> 131f3fea3dc3641badb625005a0b0c016eda5473
 
 .navimage{
     height: 72px;
@@ -79,10 +133,11 @@
     display: flex;
     align-items: center;
     padding-right: 58px;
-    width: 217px;
+    width: 250px;
 }
 .left1 h6{
     font-size: 16px;
+    padding-left: 16px;
 }
 .left2{
     width: 293px;
