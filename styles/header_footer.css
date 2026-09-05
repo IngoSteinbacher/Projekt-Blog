@@ -1,35 +1,25 @@
-
 .navlink {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
 }
+
 
 
 .navlink:hover::after {
-  content: "";
-  position: absolute;
-  left: -7px;
-  bottom: -3px;
-  width: calc(100% + 14px);
-  height: 22px;
-  border-bottom: 4px solid #f5c542;
-  border-radius: 0 0 70% 70%;
-  transform: rotate(-1deg);
+    content: "";
+    position: absolute;
+    left: -7px;
+    bottom: 0px;
+    width: calc(100% + 14px);
+    height: 23px;
+    border-bottom: 3px solid #f5c542;
+    border-radius: 0 0% 100% 100%;
+    transform: rotate(358deg);
 }
 
 
-.navlink:hover::before {
-  content: "";
-  position: absolute;
-  right: -8px;
-  bottom: 0;
-  width: 17px;
-  height: 24px;
-  border-right: 4px solid #f5c542;
-  border-bottom: 4px solid #f5c542;
-  border-radius: 0 0 100% 0;
-  transform: rotate(-8deg);
-}
 
 .navimage{
     height: 72px;
