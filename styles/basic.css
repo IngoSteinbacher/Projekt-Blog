@@ -169,10 +169,11 @@ body {
   background-position: center top;
   border-radius: 53px;
   margin-top: 137px;
-
+  cursor: pointer;
 }
 .video_img1{
   border-radius: 53px;
+
 }
 .description_content {
   max-width: 100%;
