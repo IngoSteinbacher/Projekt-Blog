@@ -13,18 +13,6 @@
     cursor: pointer;
 }
 
-
-.navlink:hover::after {
-    content: "";
-    position: absolute;
-    left: -7px;
-    bottom: 0px;
-    width: calc(100% + 14px);
-    height: 23px;
-    border-bottom: 3px solid #f5c542;
-    border-radius: 0 0% 100% 100%;
-    transform: rotate(358deg);
-}
 .post2{
     display: flex;
     position: relative;
