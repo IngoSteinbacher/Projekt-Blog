@@ -163,13 +163,16 @@ body {
   width: 931px;
   height: 520px;
   display: flex;
-  background-image: url(../img/Video.png);
+  /* background-image: url(../img/Video.png); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   border-radius: 53px;
   margin-top: 137px;
 
+}
+.video_img1{
+  border-radius: 53px;
 }
 .description_content {
   max-width: 100%;
@@ -546,7 +549,6 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
 .share-toggle:checked + .share-row .Share-icon1 {
     display: none;
 }
-/* Share Icon */
 
 .share-icon {
   position: relative;
@@ -585,8 +587,6 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
   bottom: 3px;
 }
 
-/* Verbindungslinien */
-
 .line {
   position: absolute;
 
@@ -609,8 +609,6 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
   top: 19px;
   transform: rotate(27deg);
 }
-
-/* LinkedIn / WhatsApp*/
 
 .share-links {
   display: flex;
@@ -643,6 +641,9 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
 @media screen and (min-width: 1440px) {
   .main-page {
     padding: 0px max(0px, calc(50% - 720px));  
+  }
+  .top{
+    padding: 0px max(0px, calc(50% - 720px));
   }
   .main-page1 {
     padding: 0px max(0px, calc(50% - 720px));  
