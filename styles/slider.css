@@ -127,10 +127,10 @@ input[type="radio"]:checked {
   animation: rotating 10s linear infinite;
 }
 .top_hero{
-  position: absolute;
-  left: 0;
+  position: relative;
+  right: 212px;
   top: -2px;
-  width: 647px;
+  width: 640px;
   height: 540px;
   background-image: url(../img/Vector16.svg);
  
@@ -180,6 +180,6 @@ input[type="radio"]:checked {
   }
   .slider{
     max-width: 100%;
-    height: 605px;
+    height: 760px;
   }
 }

@@ -30,6 +30,12 @@ body {
   width: 100%;
   padding: 0px 15px;
 }
+.dp_flex{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 8px 0px;
+}
 .main-a{
   text-decoration: none;
 }
@@ -64,7 +70,7 @@ body {
 
 .top {
   display: flex;
-  max-width: 1440px;
+  /* max-width: 1440px; */
   position: relative;
   height: 515px;
   padding: 0px 0px;
@@ -115,12 +121,13 @@ body {
   margin-bottom: 32px;
 }
 .date_time {      
-    width: 100%;
+    width: 50%;
     display: flex;
     gap: 16px;
     margin-top: 32px;
     margin-bottom: 32px;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-around;
 }
 .date_time img{
   margin-right: 8px;
@@ -129,12 +136,16 @@ body {
   margin-right: 4px;
 }
 .read_share {
-  width: 100%;
+  width: 50%;
   display: flex;
   gap: 6px;
   align-items: center;
+  justify-content: space-around;
 }
 .read_share p{
+  margin-right: 8px;
+}
+.read_share img{
   margin-right: 8px;
 }
 .video_info {
@@ -642,13 +653,13 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
 
 @media screen and (min-width: 1440px) {
   .main-page {
-    padding: 0px max(0px, calc(50% - 720px));  
+    padding: 0px max(3px, calc(50% - 720px));  
   }
   .top{
     padding: 0px max(0px, calc(50% - 720px));
   }
   .main-page1 {
-    padding: 0px max(0px, calc(50% - 720px));  
+    padding: 0px max(3px, calc(50% - 720px));  
   }
   .impress {
     padding: 0px max(12px, calc(50% - 720px));
@@ -683,9 +694,33 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
     display: none;
   }
 }
+@media screen and (min-width: 740px) and (max-width: 1280px) {
+  .main-page {
+    padding: 0px max(3px, calc(50% - 720px));  
+  }
+  .top{
+    padding: 0px max(0px, calc(50% - 720px));
+
+  }
+  .main-page1 {
+    padding: 0px max(3px, calc(50% - 720px));  
+  }
+  .impress {
+    padding: 0px max(12px, calc(50% - 720px));
+  }
+  #header-placeholder {
+    padding: 0px max(12px, calc(50% - 720px));
+  }
+  #footer-placeholder {
+    padding: 0px max(0px, calc(50% - 720px));
+  }
+  #footer_header-placeholder {
+    padding: 0px max(0px, calc(50% - 720px));
+  }
+}
 @media screen and (min-width: 841px) and (max-width: 1280px) {
   .main {
-    padding: 0px 30px;
+    padding: 0px 80px;
   }
   .header2 {
     display: none;
@@ -731,9 +766,12 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
 }
 @media screen and (min-width: 4px) and (max-width: 840px) {
 
+  #footer_header-placeholder {
+    padding: 0px max(0px, calc(50% - 720px));
+  }
   .main {
     width: 100%; 
-    padding: 0px 20px;
+    padding: 0px 40px;
   }
   .info {
     margin: 54px 16px;
@@ -812,13 +850,21 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
     padding-top: 24px;
     padding-bottom: 8px;
   }
-    .scandy_tour{
-      padding-top: 24px;
-      padding-bottom: 24px;
-      font-size: 16px;
+  .scandy_tour{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-size: 16px;
+  }
+  .date_time{
+    width: 100%;
+    justify-content: space-between;
   }
   .date_time p{
     margin-right: 6px;
+  }
+  .read_share{
+    width: 100%;
+    justify-content: space-between;
   }
   .read_share p {
     margin-right: 6px;
