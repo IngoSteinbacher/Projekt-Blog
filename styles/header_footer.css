@@ -24,22 +24,22 @@
 .post-i {
     position: absolute;
     top: 25px;
-    left: 75px;
+    left: 60px;
     width: 0px;
     height: 20px;
     transform: rotate(-6deg);
     overflow: hidden;
 }
 .post1:hover .post-i {
-   width: 100px;
+   width: 123px;
     
 }
 .post2:hover .post-i {
-   width: 100px;
+   width: 123px;
     
 }
 .post:hover .post-i {
-   width: 100px;
+   width: 123px;
     
 }
 .nav_big{
