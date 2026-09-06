@@ -29,7 +29,6 @@
     height: 20px;
     transform: rotate(-6deg);
     overflow: hidden;
-   
 }
 .post1:hover .post-i {
    width: 100px;
