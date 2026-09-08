@@ -1,7 +1,7 @@
 .post {
     display: flex;
     position: relative;
-    width: 120px;
+    width: 130px;
     height: 48px;
     cursor: pointer;
 }
@@ -16,31 +16,49 @@
 .post2{
     display: flex;
     position: relative;
-    width: 110px;
+    width: 130px;
     height: 48px;
     cursor: pointer;
 
 }
-.post-i {
+.post-h {
     position: absolute;
-    top: 25px;
+    top: 20px;
     left: 60px;
     width: 0px;
     height: 20px;
-    transform: rotate(-6deg);
+    transform: rotate(-3deg);
+    overflow: hidden;    
+}
+.post-f {
+    position: absolute;
+    top: 20px;
+    left: 65px;
+    width: 0px;
+    height: 20px;
+    transform: rotate(-4deg);
+    overflow: hidden;    
+}
+.post-c {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 0px;
+    height: 20px;
+    transform: rotate(-4deg);
     overflow: hidden;
 }
-.post1:hover .post-i {
+.post1:hover .post-h {
    width: 123px;
     
 }
-.post2:hover .post-i {
+.post2:hover .post-f {
    width: 123px;
     
 }
-.post:hover .post-i {
+.post:hover .post-c {
    width: 123px;
-    
+
 }
 .nav_big{
     display: flex;
@@ -147,8 +165,11 @@
 }
 
 @media screen and (min-width: 4px) and (max-width: 848px) {
-    .nav_style{
-        padding-left: 0;
-        justify-content: center;
+    .nav_style{  
+        
+    }
+    .nav_width{
+        width: 100%;
+        justify-self: end;
     }
 }
