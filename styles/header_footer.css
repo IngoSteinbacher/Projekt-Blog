@@ -165,9 +165,7 @@
 }
 
 @media screen and (min-width: 4px) and (max-width: 848px) {
-    .nav_style{  
-        
-    }
+    
     .nav_width{
         width: 100%;
         justify-self: end;
