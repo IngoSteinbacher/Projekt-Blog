@@ -945,6 +945,17 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
   .first_1{
     display: none;
   }
+  .share-arrow {
+    position: relative;
+    right: 155px;
+    bottom: 14px;
+    width: 62px;
+    height: 85px;
+
+}
+    .share-text {
+        font-size: 18px;
+    }
 }
 @media screen and (min-width: 4px) and (max-width: 479px) {
   #faq {
