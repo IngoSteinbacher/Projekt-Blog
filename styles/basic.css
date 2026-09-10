@@ -477,6 +477,7 @@ input[type="checkbox"] {
 .btn-primary:hover {
   background-color: #4EA487;
   color: #F1C953;
+  pointer-events: none;
 }
 .btn-primary:active {
   background-color: #4EA487;
@@ -947,7 +948,7 @@ Wenn Share angeklickt wurde: Checkbox = checked  => share-options wird sichtbar
   }
   .share-arrow {
     position: relative;
-    right: 155px;
+    right: 165px;
     bottom: 14px;
     width: 62px;
     height: 85px;
