@@ -8,6 +8,7 @@
     border-radius: 53px;
     box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 25%);
     margin-bottom: 88px;
+    object-fit: cover;
 }
 
 .price_beach {
@@ -24,6 +25,7 @@
     margin-top: 16px;
     border-radius: 53px;
     box-shadow: -2px 4px 11.6px rgba(0, 0, 0, 25%);
+    object-fit: cover;
 }
 .diagr_price {
     display: flex;
@@ -43,7 +45,7 @@
     justify-content: center;
 }
 .p_88_t{
-    margin-top: 66px;
+    margin-top: 36px;
 }
 
 @media screen and (min-width: 315px) and (max-width: 1280px) {
