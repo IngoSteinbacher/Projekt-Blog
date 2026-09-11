@@ -478,6 +478,8 @@ button{
 button:hover {
   background-color: #4EA487;
   color: #F1C953;
+}
+button:active {
   pointer-events: none;
 }
 

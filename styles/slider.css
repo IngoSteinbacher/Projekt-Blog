@@ -129,7 +129,7 @@ input[type="radio"]:checked {
 .top_hero{
   position: relative;
   right: 212px;
-  top: -2px;
+  top: 0px;
   width: 640px;
   height: 541px;
   background-image: url(../img/Vector_16.svg);
