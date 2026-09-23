@@ -38,7 +38,9 @@ Befolge diese Schritte, um das Projekt lokal auf deinem Computer auszuführen:
 ## 👥 Mitwirken (Contributing)
 
 @GMCasolaro         GMCasolaro              Gianmichele Casolaro
+
 @IngoSteinbacher    IngoSteinbacher         Ingo S.
+
 @EsvaranDev         EsvaranDev              Sinthujan Esvaran
 
 Beiträge sind herzlich willkommen!
