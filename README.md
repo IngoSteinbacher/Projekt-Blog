@@ -24,11 +24,11 @@ Befolge diese Schritte, um das Projekt lokal auf deinem Computer auszuführen:
 
 1. **Repository klonen:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/IngoSteinbacher/Projekt-Blog.git
    ```
 2. **In den Projektordner wechseln:**
    ```bash
-   cd dein-repo-name
+   cd Projekt-Blog
    ```
 3. **Projekt starten:**
    * Öffne einfach die `index.html` direkt in deinem Browser.
